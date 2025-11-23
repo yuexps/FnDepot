@@ -1,13 +1,13 @@
 {
   "fntermx": {
     "display_name": "终端",
-    "desc": "这是一个非常酷的应用。<br/>它拥有很多强大的功能。",
+    "desc": "这是一个非常酷的应用。它拥有很多强大的功能。",
     "labels": "工具,效率",
     "version": "1.0.0",
     "icon": "https://raw.githubusercontent.com/EWEDLCM/FnDepot/main/fntermx/ICON.PNG", 
     "download_url": "https://raw.githubusercontent.com/EWEDLCM/FnDepot/main/fntermx/fntermx.fpk", 
-    "maintainer": "EWEDL",
-    "maintainer_url": "https://github.com/EWEDLCM/",
+    "author": "EWEDL",
+    "author_url": "https://github.com/EWEDLCM/",
     "bug_report_url": "https://github.com/EWEDLCM/FnDepot/fntermx/issues",
     "install_type": "系统空间",
     "size": "42.5",
