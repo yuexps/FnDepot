@@ -1,30 +1,16 @@
 {
   "fntermx": {
-    "display_name": "终端",
-    "desc": "这是一个非常酷的应用<br/>它拥有很多强大的功能。",
-    "labels": "工具,效率",
-    "version": "1.0.8",
-    "author": "EWEDL",
-    "author_url": "https://github.com/EWEDLCM/",
-    "bug_report_url": "https://github.com/EWEDLCM/FnDepot/fntermx/issues",
+    "display_name": "v2rayA",
+    "desc": "v2rayA is a V2Ray client that supports global transparent proxy and provides a web-based management interface.",
+    "labels": "工具,网络",
+    "version": "2.2.7.4",
+    "author": "v2rayA",
+    "author_url": "https://github.com/yuexps/v2raya-fnos",
+    "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
     "install_type": "系统空间",
-    "size": "42.5",
+    "size": "30",
     "history": {
       "v1.0.0": "1. 初始版本发布。"
-    }
-  },
-  "gotty": {
-    "display_name": "gotty",
-    "desc": "这是一个gotty\n好不好用我也不知道",
-    "labels": "终端,效率,便捷",
-    "version": "1.0.5",
-    "author": "yudai",
-    "author_url": "https://github.com/EWEDLCM/",
-    "bug_report_url": "https://github.com/EWEDLCM/FnDepot/gotty/issues",
-    "install_type": "存储空间",
-    "size": "3",
-    "history": {
-      "v1.0.5": "测试"
     }
   }
 }
