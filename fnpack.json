@@ -16,7 +16,7 @@
   "lunatv": {
     "display_name": "LunaTV",
     "desc": "LunaTV is a media streaming service packaged as a Docker application for FNOS.",
-    "labels": "影视",
+    "labels": "工具,影视",
     "version": "1.0.0",
     "author": "MoonTechLab",
     "author_url": "https://github.com/MoonTechLab/LunaTV",
