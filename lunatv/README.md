@@ -4,14 +4,12 @@ LunaTV is a media streaming service packaged as a Docker application for FNOS.
 
 ## Services
 
-1. **moontv-core**: Main LunaTV application service
-2. **moontv-kvrocks**: Kvrocks storage for LunaTV
+1. **moontv-core-fnos**: Main LunaTV application service
+2. **moontv-kvrocks-fnos**: Kvrocks storage for LunaTV
 
 ## Configuration
 
 - Default port: 22388
-- Default username: admin
-- Default password: admin_password
 
 ## Deployment
 
