@@ -44,7 +44,7 @@
   },
   "read":{
     "display_name": "轻阅读",
-    "desc": "轻阅读APP后端，支持全端，不管是手机还是大屏设备都适配了ui，可以在全端同步进度。开源阅读不方便同步轻阅读进度，并且开源阅读过于复杂，移植多端难度较大，通过同一个后端的方法，可以做到多端体验基本一致。 \n APP下载地址: https://github.com/autobcb/read/releases/tag/3.3.3",
+    "desc": "轻阅读APP后端，支持全端，不管是手机还是大屏设备都适配了ui，可以在全端同步进度。开源阅读不方便同步轻阅读进度，并且开源阅读过于复杂，移植多端难度较大，通过同一个后端的方法，可以做到多端体验基本一致。 \n 后台地址: http://ip:15432/admin \n APP下载地址: https://github.com/autobcb/read/releases/tag/3.3.3",
     "labels": "工具,阅读",
     "version": "3.3.3",
     "author": "autobcb",

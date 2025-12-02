@@ -15,9 +15,9 @@
 http://www.qread.xyz/
 
 # 后台
-http://ip:8080/admin(轻阅读后台)
+http://ip:15432/admin(轻阅读后台)
 
-http://ip:8080/(web阅读)
+http://ip:15432/(web阅读)
 
 web端不支持cookie的保存，不支持webview，漫画或者图片或者听书链接回因资源服务器禁止跨域而无法显示，app版才支持cookie的保存
 
