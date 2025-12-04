@@ -7,6 +7,7 @@
     "author": "v2rayA",
     "author_url": "https://github.com/yuexps/v2raya-fnos",
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
+    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/2.2.7.4/v2raya.fpk",
     "install_type": "系统空间",
     "size": "30",
     "history": {
@@ -21,6 +22,7 @@
     "author": "MoonTechLab",
     "author_url": "https://github.com/MoonTechLab/LunaTV",
     "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
+    "download_url": "https://github.com/yuexps/lunatv-fnos/releases/download/1.0.0/lunatv.fpk",
     "install_type": "系统空间",
     "size": "1",
     "history": {
@@ -65,5 +67,20 @@
     "download_url": "https://github.com/UCKETX/moviepilot/releases/download/3.3/moviepilot.fpk",
     "install_type": "系统空间",
     "size": "0.15"
+  },
+  "lunatv-enhanced": {
+    "display_name": "LunaTV Enhanced",
+    "desc": "基于 MoonTV 深度二次开发的全功能影视聚合播放平台，新增 YouTube 集成、网盘搜索、AI 推荐、短剧功能、IPTV 直播、Bangumi 动漫、播放统计、弹幕系统等 50+ 重大功能增强，打造极致的在线观影体验。",
+    "labels": "工具,影视",
+    "version": "1.0.0",
+    "author": "SzeMeng76",
+    "author_url": "https://github.com/SzeMeng76/LunaTV",
+    "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
+    "download_url": "https://github.com/yuexps/lunatv-enhanced-fnos/releases/download/1.0.0/lunatv-enhanced.fpk",
+    "install_type": "系统空间",
+    "size": "1",
+    "history": {
+      "v1.0.0": "1. 初始版本发布。"
+    }
   }
 }
