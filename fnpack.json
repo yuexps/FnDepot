@@ -9,10 +9,7 @@
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
     "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/2.2.7.4/v2raya.fpk",
     "install_type": "系统空间",
-    "size": "30",
-    "history": {
-      "v2.2.7.4": "1. 初始版本发布。"
-    }
+    "size": "30"
   },
   "lunatv": {
     "display_name": "LunaTV",
@@ -24,10 +21,7 @@
     "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
     "download_url": "https://github.com/yuexps/lunatv-fnos/releases/download/1.0.0/lunatv.fpk",
     "install_type": "系统空间",
-    "size": "1",
-    "history": {
-      "v1.0.0": "1. 初始版本发布。"
-    }
+    "size": "1"
   },
   "reader": {
     "display_name": "Reader",
@@ -39,10 +33,7 @@
     "bug_report_url": "https://github.com/yuexps/reader-fnos/issues",
     "download_url": "https://github.com/yuexps/reader-fnos/releases/download/3.2.14/reader.fpk",
     "install_type": "系统空间",
-    "size": "66",
-    "history": {
-      "v3.2.14": "Reader 服务器版 3.2.14"
-    }
+    "size": "66"
   },
   "read":{
     "display_name": "轻阅读",
@@ -78,10 +69,7 @@
     "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
     "download_url": "https://github.com/yuexps/lunatv-enhanced-fnos/releases/download/1.0.0/lunatv-enhanced.fpk",
     "install_type": "系统空间",
-    "size": "1",
-    "history": {
-      "v1.0.0": "1. 初始版本发布。"
-    }
+    "size": "1"
   },
   "iventoy": {
     "display_name": "iVentoy",
