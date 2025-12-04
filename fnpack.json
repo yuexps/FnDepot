@@ -82,5 +82,17 @@
     "history": {
       "v1.0.0": "1. 初始版本发布。"
     }
+  },
+  "iventoy": {
+    "display_name": "iVentoy",
+    "desc": "iVentoy 是一个基于 PXE 协议的网络启动工具，支持同时启动多台机器，同时支持多种操作系统的安装。",
+    "labels": "工具,系统",
+    "version": "1.0.20",
+    "author": "longpanda",
+    "author_url": "https://iventoy.com/cn/index.html",
+    "bug_report_url": "https://github.com/UCKETX/iventoy/issues",
+    "download_url": "https://github.com/UCKETX/iventoy/releases/download/1.0.20/iventoy.fpk",
+    "install_type": "系统空间",
+    "size": "13.4"
   }
 }
