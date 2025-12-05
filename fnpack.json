@@ -82,5 +82,17 @@
     "download_url": "https://github.com/UCKETX/iventoy/releases/download/1.0.20/iventoy.fpk",
     "install_type": "系统空间",
     "size": "13.4"
+  },
+  "omnibox": {
+    "display_name": "OmniBox",
+    "desc": "OmniBox 是一个功能强大的影视综合站，解决了资源分散、查找困难的问题，为影视爱好者提供一站式的观影解决方案。它整合了常见的采集站、网盘资源、IPTV 直播源、各大直播平台等，无论您是付费会员、还是习惯于搜索免费资源，它都能满足您的需求。",
+    "labels": "工具,影视",
+    "version": "1.0.0",
+    "author": "longpanda",
+    "author_url": "",
+    "bug_report_url": "https://github.com/UCKETX/omnibox/issues",
+    "download_url": "https://github.com/UCKETX/omnibox/releases/download/1.0.0/omnibox.fpk",
+    "install_type": "系统空间",
+    "size": "0.12"
   }
 }
