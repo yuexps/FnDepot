@@ -94,5 +94,17 @@
     "download_url": "https://github.com/UCKETX/omnibox/releases/download/1.0.0/omnibox.fpk",
     "install_type": "系统空间",
     "size": "0.12"
+  },
+  "2fmusic": {
+    "display_name": "2FMusic-测试版",
+    "desc": "2FMusic 测试版：简洁高效的本地音乐播放器，支持自动获取歌词和封面，集成文件管理器右键导入与一键播放功能。",
+    "labels": "工具,音乐",
+    "version": "0.0.1",
+    "author": "yuexps",
+    "author_url": "",
+    "bug_report_url": "",
+    "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic.fpk",
+    "install_type": "系统空间",
+    "size": "3"
   }
 }
