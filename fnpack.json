@@ -1,16 +1,4 @@
 {
-  "v2raya": {
-    "display_name": "v2rayA",
-    "desc": "v2rayA is a V2Ray client that supports global transparent proxy and provides a web-based management interface.",
-    "labels": "工具,网络",
-    "version": "2.2.7.4",
-    "author": "v2rayA",
-    "author_url": "https://github.com/yuexps/v2raya-fnos",
-    "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
-    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/2.2.7.4/v2raya.fpk",
-    "install_type": "系统空间",
-    "size": "30"
-  },
   "lunatv": {
     "display_name": "LunaTV",
     "desc": "LunaTV is a media streaming service packaged as a Docker application for FNOS.",
