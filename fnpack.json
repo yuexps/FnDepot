@@ -95,7 +95,7 @@
     "install_type": "系统空间",
     "size": "3"
   },
-  "netease-music": {
+  "netease": {
     "display_name": "网易云API",
     "desc": "网易云API，提供网易云音乐的API接口，推荐下载 2FMusic 使用此API",
     "labels": "工具,音乐",
