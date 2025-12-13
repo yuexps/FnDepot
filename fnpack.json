@@ -95,6 +95,18 @@
     "install_type": "系统空间",
     "size": "2"
   },
+  "2fmusic-preview": {
+    "display_name": "2FMusic-Preview",
+    "desc": "2FMusic文件管理器双击预览播放拓展。\n注意：此拓展会导致APP音乐播放器失效！",
+    "labels": "工具,音乐",
+    "version": "0.0.1",
+    "author": "yuexps",
+    "author_url": "https://github.com/yuexps/2FMusic",
+    "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
+    "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic-preview.fpk",
+    "install_type": "系统空间",
+    "size": "1"
+  },
   "netease": {
     "display_name": "网易云API",
     "desc": "网易云API，提供网易云音乐的API接口，推荐下载 2FMusic 使用此API",
