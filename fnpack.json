@@ -93,7 +93,7 @@
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
     "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic.fpk",
     "install_type": "系统空间",
-    "size": "2"
+    "size": "26.93"
   },
   "2fmusic-preview": {
     "display_name": "2FMusic-Preview",
@@ -105,7 +105,7 @@
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
     "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic-preview.fpk",
     "install_type": "系统空间",
-    "size": "1"
+    "size": "1.02"
   },
   "netease": {
     "display_name": "网易云API",
