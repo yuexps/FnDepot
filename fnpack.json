@@ -97,7 +97,7 @@
   },
   "2fmusic-preview": {
     "display_name": "2FMusic-Preview",
-    "desc": "Web端文件管理器双击预览播放拓展。\n注意：此拓展会导致APP音乐播放器失效！",
+    "desc": "Web端文件管理器双击预览播放拓展。\n2FMusic-Preview依赖2FMusic\n注意：此拓展会导致移动端APP音乐播放器失效！",
     "labels": "工具,音乐",
     "version": "0.0.1",
     "author": "yuexps",
