@@ -123,5 +123,17 @@
     "download_url": "https://github.com/UCKETX/netease/releases/download/1.0.0/netease.fpk",
     "install_type": "系统空间",
     "size": "0.03"
+  },
+  "antigravity": {
+    "display_name": "Antigravity",
+    "desc": "Antigravity 是一个专为开发者和 AI 爱好者设计的全功能桌面应用。它将多账号管理、协议转换和智能请求调度完美结合，为您提供一个稳定、极速且成本低廉的 本地 AI 中转站。",
+    "labels": "工具,AI",
+    "version": "3.3.15",
+    "author": "lbjlaq",
+    "author_url": "https://github.com/lbjlaq/Antigravity-Manager",
+    "bug_report_url": "https://github.com/lbjlaq/Antigravity-Manager/issues",
+    "download_url": "",
+    "install_type": "系统空间",
+    "size": "7.8"
   }
 }
