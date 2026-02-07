@@ -93,11 +93,11 @@
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
     "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic.fpk",
     "install_type": "系统空间",
-    "size": "26.95",
+    "size": "27.61",
     "history": {
       "v0.0.7": "⚠️ 重要提示：为避免兼容性问题，安装新版前必须完全卸载旧版本并清除数据！",
       "v0.0.8": "feat:自动刮削与收藏夹功能",
-      "v0.0.9": "feat:适配 Android APP，下载地址：https://github.com/yuexps/2FMusic/releases/tag/v0.0.9-783c458-pre"
+      "v0.0.9": "feat:适配 Android APP，下载地址：https://github.com/yuexps/2FMusic/releases/tag/v0.0.9-d75ed9b-pre"
     }
   },
   "2fmusic-preview": {
