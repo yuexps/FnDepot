@@ -97,7 +97,8 @@
     "history": {
       "v0.0.6": "None",
       "v0.0.7": "⚠️ 重要提示：为避免兼容性问题，安装新版前必须完全卸载旧版本并清除数据！",
-      "v0.0.8": "feat:自动刮削与收藏夹功能"
+      "v0.0.8": "feat:自动刮削与收藏夹功能",
+      "v0.0.9": "feat:适配Android APP：https://github.com/yuexps/2FMusic/releases/tag/v0.0.9-783c458-pre"
     }
   },
   "2fmusic-preview": {
