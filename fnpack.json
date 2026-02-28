@@ -136,5 +136,17 @@
     "download_url": "",
     "install_type": "系统空间",
     "size": "7.8"
+  },
+  "mcsmanager": {
+    "display_name": "MCSManager",
+    "desc": "ROOT权限运行；\n开源，一键开服，分布式架构，多用户，现代化的 Minecraft 和 Steam 游戏服务器管理面板，此应用整合了节点端和面板端两个子应用，默认需要 23333 和 24444 端口才可正常工作。",
+    "labels": "工具,面板,ROOT",
+    "version": "10.12.4",
+    "author": "YuMao",
+    "author_url": "https://github.com/MCSManager/MCSManager",
+    "bug_report_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/issues",
+    "download_url": "",
+    "install_type": "系统空间",
+    "size": "30.7"
   }
 }
