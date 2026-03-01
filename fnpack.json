@@ -104,7 +104,7 @@
     "install_type": "系统空间",
     "size": "0.12"
   },
-  "2fmusic": {
+  "fnnas.2fmusic": {
     "display_name": "2FMusic",
     "desc": "2FMusic 简洁的本地音乐播放器。\n测试版 - 功能暂不稳定，仅供测试！\n• 本地音乐库：自动扫描，支持识别 ID3 内嵌元数据。\n• Web 播放器：移动端适配，支持网络自动获取歌词、封面。\n• 目录管理：支持将服务器任意文件夹添加到音乐库。\n• 网易云集成：支持搜索、下载、链接解析及扫码登录。\n• 音频预览：支持文件管理器双击预览播放（需安装2FMusic Preview）。\n• Android APP 下载：https://github.com/yuexps/2FMusic/releases/tag/v0.1.0-3fba165-pre",
     "labels": "工具,音乐",
@@ -115,7 +115,7 @@
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/2FMusic",
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
-    "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic.fpk",
+    "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.0-3fba165-pre/fnnas.2fmusic-0.1.0-3fba165-amd64.fpk",
     "install_type": "系统空间",
     "size": "27.61",
     "history": {
