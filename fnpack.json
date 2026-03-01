@@ -12,7 +12,8 @@
     "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
     "download_url": "https://github.com/yuexps/lunatv-fnos/releases/download/1.0.0/lunatv.fpk",
     "install_type": "系统空间",
-    "size": "1"
+    "size": "1",
+    "isdocker": "true"
   },
   "reader": {
     "display_name": "Reader",
@@ -27,7 +28,8 @@
     "bug_report_url": "https://github.com/yuexps/reader-fnos/issues",
     "download_url": "https://github.com/yuexps/reader-fnos/releases/download/3.2.14/reader.fpk",
     "install_type": "系统空间",
-    "size": "66"
+    "size": "66",
+    "isdocker": "false"
   },
   "read": {
     "display_name": "轻阅读",
@@ -42,7 +44,8 @@
     "bug_report_url": "https://github.com/UCKETX/qreader-fnos/issues",
     "download_url": "https://github.com/UCKETX/qreader-fnos/releases/download/3.3.3/read.fpk",
     "install_type": "系统空间",
-    "size": "0.035"
+    "size": "0.035",
+    "isdocker": "true"
   },
   "moviepilot": {
     "display_name": "MoviePilot",
@@ -57,7 +60,8 @@
     "bug_report_url": "https://github.com/UCKETX/moviepilot/issues",
     "download_url": "https://github.com/UCKETX/moviepilot/releases/download/3.3/moviepilot.fpk",
     "install_type": "系统空间",
-    "size": "0.15"
+    "size": "0.15",
+    "isdocker": "true"
   },
   "lunatv-enhanced": {
     "display_name": "LunaTV Enhanced",
@@ -72,7 +76,8 @@
     "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
     "download_url": "https://github.com/yuexps/lunatv-enhanced-fnos/releases/download/1.0.0/lunatv-enhanced.fpk",
     "install_type": "系统空间",
-    "size": "1"
+    "size": "1",
+    "isdocker": "true"
   },
   "iventoy": {
     "display_name": "iVentoy",
@@ -87,7 +92,8 @@
     "bug_report_url": "https://github.com/UCKETX/iventoy/issues",
     "download_url": "https://github.com/UCKETX/iventoy/releases/download/1.0.20/iventoy.fpk",
     "install_type": "系统空间",
-    "size": "13.4"
+    "size": "13.4",
+    "isdocker": "false"
   },
   "omnibox": {
     "display_name": "OmniBox",
@@ -102,7 +108,8 @@
     "bug_report_url": "https://github.com/UCKETX/omnibox/issues",
     "download_url": "https://github.com/UCKETX/omnibox/releases/download/1.0.0/omnibox.fpk",
     "install_type": "系统空间",
-    "size": "0.12"
+    "size": "0.12",
+    "isdocker": "true"
   },
   "fnnas.2fmusic": {
     "display_name": "2FMusic",
@@ -118,6 +125,7 @@
     "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.0-3fba165-pre/fnnas.2fmusic-0.1.0-3fba165-amd64.fpk",
     "install_type": "系统空间",
     "size": "27.61",
+    "isdocker": "false",
     "history": {
       "v0.0.7": "⚠️ 重要提示：为避免兼容性问题，安装新版前必须完全卸载旧版本并清除数据！",
       "v0.0.8": "feat:自动刮削与收藏夹功能",
@@ -138,7 +146,8 @@
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
     "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.0-3fba165-pre/fnnas.2fmusic-preview-cgi-0.0.3-3fba165.fpk",
     "install_type": "系统空间",
-    "size": "1.02"
+    "size": "1.02",
+    "isdocker": "false"
   },
   "netease": {
     "display_name": "网易云API",
@@ -153,7 +162,8 @@
     "bug_report_url": "https://github.com/UCKETX/netease/issues",
     "download_url": "https://github.com/UCKETX/netease/releases/download/1.0.0/netease.fpk",
     "install_type": "系统空间",
-    "size": "0.03"
+    "size": "0.03",
+    "isdocker": "true"
   },
   "antigravity": {
     "display_name": "Antigravity",
@@ -168,7 +178,8 @@
     "bug_report_url": "https://github.com/lbjlaq/Antigravity-Manager/issues",
     "download_url": "",
     "install_type": "系统空间",
-    "size": "7.8"
+    "size": "7.8",
+    "isdocker": "false"
   },
   "mcsmanager": {
     "display_name": "MCSManager",
@@ -183,6 +194,7 @@
     "bug_report_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/issues",
     "download_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/releases/download/v10.12.4/mcsmanager.fpk",
     "install_type": "系统空间",
-    "size": "30.7"
+    "size": "30.7",
+    "isdocker": "false"
   }
 }
