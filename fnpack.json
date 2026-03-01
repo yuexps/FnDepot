@@ -3,9 +3,12 @@
     "display_name": "LunaTV",
     "desc": "LunaTV is a media streaming service packaged as a Docker application for FNOS.",
     "labels": "工具,影视",
+    "platform": [
+      "x86"
+    ],
     "version": "1.0.0",
-    "author": "MoonTechLab",
-    "author_url": "https://github.com/MoonTechLab/LunaTV",
+    "distributor": "MoonTechLab",
+    "distributor_url": "https://github.com/MoonTechLab/LunaTV",
     "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
     "download_url": "https://github.com/yuexps/lunatv-fnos/releases/download/1.0.0/lunatv.fpk",
     "install_type": "系统空间",
@@ -15,9 +18,12 @@
     "display_name": "Reader",
     "desc": "Reader 是一款开源的网络小说阅读器，提供书源管理、书架同步、WebDAV备份等功能，支持多用户模式。",
     "labels": "工具,阅读",
+    "platform": [
+      "x86"
+    ],
     "version": "3.2.14",
-    "author": "hectorqin",
-    "author_url": "https://github.com/hectorqin/reader",
+    "distributor": "hectorqin",
+    "distributor_url": "https://github.com/hectorqin/reader",
     "bug_report_url": "https://github.com/yuexps/reader-fnos/issues",
     "download_url": "https://github.com/yuexps/reader-fnos/releases/download/3.2.14/reader.fpk",
     "install_type": "系统空间",
@@ -27,9 +33,12 @@
     "display_name": "轻阅读",
     "desc": "轻阅读APP后端，支持全端，不管是手机还是大屏设备都适配了ui，可以在全端同步进度。开源阅读不方便同步轻阅读进度，并且开源阅读过于复杂，移植多端难度较大，通过同一个后端的方法，可以做到多端体验基本一致。 \n 后台地址: http://ip:15432/admin \n APP下载地址: https://github.com/autobcb/read/releases/tag/3.3.3",
     "labels": "工具,阅读",
+    "platform": [
+      "x86"
+    ],
     "version": "3.3.3",
-    "author": "autobcb",
-    "author_url": "https://github.com/autobcb/read",
+    "distributor": "autobcb",
+    "distributor_url": "https://github.com/autobcb/read",
     "bug_report_url": "https://github.com/UCKETX/qreader-fnos/issues",
     "download_url": "https://github.com/UCKETX/qreader-fnos/releases/download/3.3.3/read.fpk",
     "install_type": "系统空间",
@@ -39,9 +48,12 @@
     "display_name": "MoviePilot",
     "desc": "MoviePilot 是新一代智能化个人媒体库管理工具，基于前后端分离设计架构，拥有丰富的插件生态系统。",
     "labels": "工具,影视",
+    "platform": [
+      "x86"
+    ],
     "version": "3.3",
-    "author": "jxxghp",
-    "author_url": "https://github.com/jxxghp/MoviePilot",
+    "distributor": "jxxghp",
+    "distributor_url": "https://github.com/jxxghp/MoviePilot",
     "bug_report_url": "https://github.com/UCKETX/moviepilot/issues",
     "download_url": "https://github.com/UCKETX/moviepilot/releases/download/3.3/moviepilot.fpk",
     "install_type": "系统空间",
@@ -51,9 +63,12 @@
     "display_name": "LunaTV Enhanced",
     "desc": "基于 MoonTV 深度二次开发的全功能影视聚合播放平台，新增 YouTube 集成、网盘搜索、AI 推荐、短剧功能、IPTV 直播、Bangumi 动漫、播放统计、弹幕系统等 50+ 重大功能增强，打造极致的在线观影体验。",
     "labels": "工具,影视",
+    "platform": [
+      "x86"
+    ],
     "version": "1.0.0",
-    "author": "SzeMeng76",
-    "author_url": "https://github.com/SzeMeng76/LunaTV",
+    "distributor": "SzeMeng76",
+    "distributor_url": "https://github.com/SzeMeng76/LunaTV",
     "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
     "download_url": "https://github.com/yuexps/lunatv-enhanced-fnos/releases/download/1.0.0/lunatv-enhanced.fpk",
     "install_type": "系统空间",
@@ -63,9 +78,12 @@
     "display_name": "iVentoy",
     "desc": "iVentoy 是一个基于 PXE 协议的网络启动工具，支持同时启动多台机器，同时支持多种操作系统的安装。",
     "labels": "工具,系统",
+    "platform": [
+      "x86"
+    ],
     "version": "1.0.20",
-    "author": "longpanda",
-    "author_url": "https://iventoy.com/cn/index.html",
+    "distributor": "longpanda",
+    "distributor_url": "https://iventoy.com/cn/index.html",
     "bug_report_url": "https://github.com/UCKETX/iventoy/issues",
     "download_url": "https://github.com/UCKETX/iventoy/releases/download/1.0.20/iventoy.fpk",
     "install_type": "系统空间",
@@ -75,9 +93,12 @@
     "display_name": "OmniBox",
     "desc": "OmniBox 是一个功能强大的影视综合站，解决了资源分散、查找困难的问题，为影视爱好者提供一站式的观影解决方案。它整合了常见的采集站、网盘资源、IPTV 直播源、各大直播平台等，无论您是付费会员、还是习惯于搜索免费资源，它都能满足您的需求。",
     "labels": "工具,影视",
+    "platform": [
+      "x86"
+    ],
     "version": "1.0.0",
-    "author": "longpanda",
-    "author_url": "",
+    "distributor": "longpanda",
+    "distributor_url": "",
     "bug_report_url": "https://github.com/UCKETX/omnibox/issues",
     "download_url": "https://github.com/UCKETX/omnibox/releases/download/1.0.0/omnibox.fpk",
     "install_type": "系统空间",
@@ -87,9 +108,12 @@
     "display_name": "2FMusic",
     "desc": "2FMusic 简洁的本地音乐播放器。\n测试版 - 功能暂不稳定，仅供测试！\n• 本地音乐库：自动扫描，支持识别 ID3 内嵌元数据。\n• Web 播放器：移动端适配，支持网络自动获取歌词、封面。\n• 目录管理：支持将服务器任意文件夹添加到音乐库。\n• 网易云集成：支持搜索、下载、链接解析及扫码登录。\n• 音频预览：支持文件管理器双击预览播放（需安装2FMusic Preview）。\n• Android APP 下载：https://github.com/yuexps/2FMusic/releases/tag/v0.1.0-3fba165-pre",
     "labels": "工具,音乐",
+    "platform": [
+      "x86"
+    ],
     "version": "0.1.0",
-    "author": "yuexps",
-    "author_url": "https://github.com/yuexps/2FMusic",
+    "distributor": "yuexps",
+    "distributor_url": "https://github.com/yuexps/2FMusic",
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
     "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic.fpk",
     "install_type": "系统空间",
@@ -105,9 +129,12 @@
     "display_name": "2FMusic-Preview",
     "desc": "Web端文件管理器双击预览播放拓展。\n2FMusic-Preview依赖2FMusic\n注意：此拓展会导致移动端APP音乐播放器失效！",
     "labels": "工具,音乐",
+    "platform": [
+      "x86"
+    ],
     "version": "0.0.3",
-    "author": "yuexps",
-    "author_url": "https://github.com/yuexps/2FMusic",
+    "distributor": "yuexps",
+    "distributor_url": "https://github.com/yuexps/2FMusic",
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
     "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic-preview.fpk",
     "install_type": "系统空间",
@@ -117,9 +144,12 @@
     "display_name": "网易云API",
     "desc": "网易云API，提供网易云音乐的API接口，推荐下载 2FMusic 使用此API",
     "labels": "工具,音乐",
+    "platform": [
+      "x86"
+    ],
     "version": "1.0.0",
-    "author": "NeteaseCloudMusicApiEnhanced",
-    "author_url": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced",
+    "distributor": "NeteaseCloudMusicApiEnhanced",
+    "distributor_url": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced",
     "bug_report_url": "https://github.com/UCKETX/netease/issues",
     "download_url": "https://github.com/UCKETX/netease/releases/download/1.0.0/netease.fpk",
     "install_type": "系统空间",
@@ -127,11 +157,14 @@
   },
   "antigravity": {
     "display_name": "Antigravity",
-    "desc": "Antigravity 是一个专为开发者和 AI 爱好者设计的全功能桌面应用。它将多账号管理、协议转换和智能请求调度完美结合，为您提供一个稳定、极速且成本低廉的 本地 AI 中转站。",
+    "desc": "Antigravity 是一个专为开发者和 AI 爱好者设计的全功能桌面应用。它将多账号管理、协议转换 and 智能请求调度完美结合，为您提供一个稳定、极速且成本低廉的 本地 AI 中转站。",
     "labels": "工具,AI",
+    "platform": [
+      "x86"
+    ],
     "version": "3.3.15",
-    "author": "lbjlaq",
-    "author_url": "https://github.com/lbjlaq/Antigravity-Manager",
+    "distributor": "lbjlaq",
+    "distributor_url": "https://github.com/lbjlaq/Antigravity-Manager",
     "bug_report_url": "https://github.com/lbjlaq/Antigravity-Manager/issues",
     "download_url": "",
     "install_type": "系统空间",
@@ -139,11 +172,14 @@
   },
   "mcsmanager": {
     "display_name": "MCSManager",
-    "desc": "ROOT权限运行；\n开源，一键开服，分布式架构，多用户，现代化的 Minecraft 和 Steam 游戏服务器管理面板，此应用整合了节点端和面板端两个子应用，默认需要 23333 和 24444 端口才可正常工作。",
+    "desc": "ROOT权限运行；\n开源，一键开服，分布式架构，多用户，现代化的 Minecraft and Steam 游戏服务器管理面板，此应用整合了节点端和面板端两个子应用，默认需要 23333 and 24444 端口才可正常工作。",
     "labels": "工具,面板,ROOT",
+    "platform": [
+      "all"
+    ],
     "version": "10.12.4",
-    "author": "YuMao",
-    "author_url": "https://github.com/MCSManager/MCSManager",
+    "distributor": "YuMao",
+    "distributor_url": "https://github.com/MCSManager/MCSManager",
     "bug_report_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/issues",
     "download_url": "",
     "install_type": "系统空间",
