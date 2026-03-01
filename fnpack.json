@@ -125,7 +125,7 @@
       "v0.1.0": "fix:修复因应用名称首位数字导致的安装失败问题"
     }
   },
-  "2fmusic-preview": {
+  "fnnas.2fmusic-preview": {
     "display_name": "2FMusic-Preview",
     "desc": "Web端文件管理器双击预览播放拓展。\n2FMusic-Preview依赖2FMusic\n注意：此拓展会导致移动端APP音乐播放器失效！",
     "labels": "工具,音乐",
@@ -136,7 +136,7 @@
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/2FMusic",
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
-    "download_url": "https://github.com/yuexps/FnDepot/releases/download/2FMusic/2fmusic-preview.fpk",
+    "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.0-3fba165-pre/fnnas.2fmusic-preview-cgi-0.0.3-3fba165.fpk",
     "install_type": "系统空间",
     "size": "1.02"
   },
