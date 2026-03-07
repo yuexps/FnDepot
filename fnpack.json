@@ -140,11 +140,11 @@
     "platform": [
       "x86"
     ],
-    "version": "0.0.3",
+    "version": "0.0.4",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/2FMusic",
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
-    "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.0-3fba165-pre/fnnas.2fmusic-preview-cgi-0.0.3-3fba165.fpk",
+    "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.0-3fba165-pre/fnnas.2fmusic-preview-cgi-0.0.4-49d5b7f.fpk",
     "install_type": "系统空间",
     "size": "1.02",
     "isdocker": "false"
