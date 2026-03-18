@@ -199,10 +199,10 @@
   },
   "v2raya": {
     "display_name": "V2RayA",
-    "desc": "v2rayA 是一个支持全局透明代理的 V2Ray 客户端，提供 Web 界面管理。支持 v2ray-core 和 xray-core。",
+    "desc": "v2rayA 是一个支持全局透明代理的 V2Ray 客户端，提供 Web 界面管理。支持 v2ray-core 和 xray-core。支持X86_64和ARM64架构。",
     "labels": "工具,网络",
     "platform": [
-      "x86"
+      "all"
     ],
     "version": "26.3.18",
     "distributor": "v2rayA,v2ray-core,xray-core",
