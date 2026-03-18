@@ -199,18 +199,18 @@
   },
   "v2raya": {
     "display_name": "V2RayA",
-    "desc": "v2rayA is a V2Ray client that supports global transparent proxy and provides a web-based management interface.",
+    "desc": "v2rayA 是一个支持全局透明代理的 V2Ray 客户端，提供 Web 界面管理。支持 v2ray-core 和 xray-core。",
     "labels": "工具,网络",
     "platform": [
       "x86"
     ],
-    "version": "26.2.28",
+    "version": "26.3.18",
     "distributor": "v2rayA,v2ray-core,xray-core",
     "distributor_url": "https://github.com/yuexps/v2raya-fnos",
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
-    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.2.28/v2raya.fpk",
+    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.3.18/v2raya.fpk",
     "install_type": "系统空间",
-    "size": "49.9",
+    "size": "49.6",
     "isdocker": "false"
   }
 }
