@@ -204,13 +204,13 @@
     "platform": [
       "all"
     ],
-    "version": "26.3.18",
+    "version": "26.3.19",
     "distributor": "v2rayA,v2ray-core,xray-core",
     "distributor_url": "https://github.com/yuexps/v2raya-fnos",
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
-    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.3.18/v2raya.fpk",
+    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.3.19/v2raya.fpk",
     "install_type": "系统空间",
-    "size": "85.5",
+    "size": "92.8",
     "isdocker": "false"
   }
 }
