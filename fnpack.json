@@ -205,7 +205,7 @@
       "all"
     ],
     "version": "26.3.19",
-    "distributor": "v2rayA,v2ray-core,xray-core",
+    "distributor": "v2rayA,v2ray,xray",
     "distributor_url": "https://github.com/yuexps/v2raya-fnos",
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
     "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.3.19/v2raya.fpk",
