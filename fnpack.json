@@ -196,5 +196,21 @@
     "install_type": "系统空间",
     "size": "30.7",
     "isdocker": "false"
+  },
+  "qwenpaw_yuexps": {
+    "display_name": "QwenPaw",
+    "desc": "你的 AI 个人助理；安装极简、本地与云上均可部署；支持多端接入、能力轻松扩展。\n核心能力：\n由你掌控 — 记忆与个性化完全由你掌控，支持本地或云端部署。无第三方托管，无数据上传。\nSkills 扩展 — 内置定时任务、PDF/Office 处理、新闻摘要等；自定义技能自动加载，无绑定。通过 Skills 决定 QwenPaw 能做什么。\n多智能体协作 — 创建多个独立智能体，各司其职；启用协作技能，智能体间互相通信共同完成复杂任务。\n多层安全防护 — 工具防护、文件访问控制、技能安全扫描，保障运行安全。\n全域触达 — 钉钉、飞书、微信、Discord、Telegram 等频道，一个 QwenPaw 按需连接。\n你可以用 QwenPaw 做什么：\n社交媒体：每日热帖摘要（小红书、知乎、Reddit），B 站/YouTube 新视频摘要。\n生产力：邮件与 Newsletter 精华推送到钉钉/飞书/QQ，邮件与日历整理联系人。\n创意与构建：睡前说明目标、自动执行，次日获得雏形；从选题到成片全流程。\n研究与学习：追踪科技与 AI 资讯，个人知识库检索复用。\n桌面与文件：整理与搜索本地文件、阅读与摘要文档，在会话中索要文件。\n探索更多：用 Skills 与定时任务组合成你自己的 agentic app。",
+    "labels": "工具,AI",
+    "platform": [
+      "x86"
+    ],
+    "version": "26.4.22",
+    "distributor": "agentscope-ai",
+    "distributor_url": "https://github.com/yuexps/QwenPaw-FNOS",
+    "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
+    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.4.22/qwenpaw_yuexps.fpk",
+    "install_type": "系统空间",
+    "size": "9.5",
+    "isdocker": "false"
   }
 }
