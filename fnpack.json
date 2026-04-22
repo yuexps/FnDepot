@@ -32,8 +32,8 @@
     "isdocker": "false"
   },
   "v2raya": {
-    "display_name": "V2*A",
-    "desc": "v2*A is a V2R*y client that supports global transparent proxy and provides a web-based management interface.",
+    "display_name": "V2",
+    "desc": "global transparent proxy and provides a web-based management interface.",
     "labels": "工具,网络",
     "platform": [
       "all"
