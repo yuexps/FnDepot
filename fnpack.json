@@ -232,7 +232,7 @@
   },
   "Chrome-for-Testing-yuexps": {
     "display_name": "Chrome for Testing",
-    "desc": "Chrome 变种，专门针对 Web 应用测试和自动化用例。支持 Playwright，配合QwenPaw使用。\nPLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/var/apps/Chrome-for-Testing-yuexps/target/chrome'",
+    "desc": "Chrome 变种，专门针对 Web 应用测试和自动化用例。支持 Playwright，配合QwenPaw使用。\nPLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/var/apps/Chrome-for-Testing-yuexps/target/chrome-headless-shell'",
     "labels": "工具,浏览器,无头",
     "platform": [
       "x86"
