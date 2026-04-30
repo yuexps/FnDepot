@@ -38,13 +38,13 @@
     "platform": [
       "all"
     ],
-    "version": "26.3.19",
+    "version": "26.4.30",
     "distributor": "None",
     "distributor_url": "https://github.com/yuexps/v2raya-fnos",
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
-    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.3.19/v2raya.fpk",
+    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.4.30/v2raya.fpk",
     "install_type": "系统空间",
-    "size": "92.8",
+    "size": "94.3",
     "isdocker": "false"
   },
   "read": {
