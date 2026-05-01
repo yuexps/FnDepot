@@ -220,14 +220,14 @@
     "platform": [
       "x86"
     ],
-    "version": "26.4.30",
+    "version": "26.5.1",
     "distributor": "agentscope-ai",
     "distributor_url": "https://github.com/yuexps/QwenPaw-FNOS",
     "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
-    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.4.30/qwenpaw_yuexps.fpk",
+    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.5.1/qwenpaw_yuexps.fpk",
     "install_type": "系统空间",
     "size": "9.75",
-    "changelog": "更新 QwenPaw 到 v1.1.5 版本 。\n记忆搜索优化；上下文压缩降级机制；ACP Agent 重命名与删除；QQ 语音与 ASR 支持。\n记忆与上下文架构重构；计划执行模式；Shell 绕过检测可配置化；免认证主机白名单；SIP 语音频道；会话右键菜单；浏览器启动参数与 Shell 命令超时配置； 内置DeepSeek V4 模型。",
+    "changelog": "更新 QwenPaw 到 v1.1.5.post1 版本",
     "isdocker": "false"
   },
   "Chrome-for-Testing-yuexps": {
