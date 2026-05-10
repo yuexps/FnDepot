@@ -38,13 +38,14 @@
     "platform": [
       "all"
     ],
-    "version": "26.4.30",
+    "version": "26.5.10",
     "distributor": "None",
     "distributor_url": "https://github.com/yuexps/v2raya-fnos",
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
-    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.4.30/v2raya.fpk",
+    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.5.10/v2raya.fpk",
     "install_type": "系统空间",
-    "size": "94.3",
+    "size": "92.3",
+    "changelog": "**Native Unix Socket Integration**: Uses Unix Domain Socket for backend communication, ensuring ZERO TCP port occupation for the management interface.",
     "isdocker": "false"
   },
   "read": {
