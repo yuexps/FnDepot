@@ -249,19 +249,19 @@
   },
   "m.text.editor": {
     "display_name": "NotePod++",
-    "desc": "NotePod++ 是一款轻量、极速的文本编辑器，它基于强大的 Monaco Editor 核心（VS Code 同款）。",
+    "desc": "NotePod++是一款轻量极速的文本编辑器，基于Monaco Editor核心（VS Code同款）\n类VS Code深色现代UI风格\n支持飞牛文件管理器直接打开文件\n支持主页输入绝对路径打开和新建文件\n自动检测UTF-8、GBK、Big5、UTF-16等常见编码",
     "labels": "工具,文本编辑器,开发",
     "platform": [
       "x86"
     ],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/m.text.editor",
     "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
-    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.0.2/m.text.editor.fpk",
+    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.0.3/m.text.editor.fpk",
     "install_type": "系统空间",
-    "size": "6.46",
-    "changelog": "修复了一些bug，提升了性能",
+    "size": "6.45",
+    "changelog": "修复了一些bug，引入了更多Bug...",
     "isdocker": "false"
   }
 }
