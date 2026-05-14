@@ -205,11 +205,11 @@
     "platform": [
       "all"
     ],
-    "version": "10.13.0",
+    "version": "10.14.0",
     "distributor": "YuMao",
     "distributor_url": "https://github.com/MCSManager/MCSManager",
     "bug_report_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/issues",
-    "download_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/releases/download/v10.13.0/mcsmanager.fpk",
+    "download_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/releases/download/v10.14.0/mcsmanager.fpk",
     "install_type": "系统空间",
     "size": "32.5",
     "isdocker": "false"
