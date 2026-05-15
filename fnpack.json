@@ -249,19 +249,19 @@
   },
   "m.text.editor": {
     "display_name": "NotePod++",
-    "desc": "NotePod++ 是一款轻量、极速的文本编辑器，它基于强大的 Monaco Editor 核心（VS Code 同款）。\n- 类 VS Code 视觉风格：深色现代 UI\n- 文件管理深度集成：在飞牛文件管理器内提供“右键编辑”菜单及工具栏“新建文件”按钮。\n- 手动路径打开：支持在主页输入绝对路径打开文件。\n- 快速创建文件：支持在主页或文件管理工具栏快速创建并编辑新文件。\n- 编码自动检测：自动检测 UTF-8, GBK, Big5, UTF-16 等常见编码，无需手动切换。\n- 配套浏览器拓展：支持在浏览器中持久化开启上述深度集成功能。",
+    "desc": "NotePod++ 是一款轻量、极速的文本编辑器，它基于强大的 Monaco Editor 核心（VS Code 同款）。\n- 类 VS Code 视觉风格：深色现代 UI\n- 文件管理深度集成：在飞牛文件管理器内提供“右键编辑”菜单及工具栏“新建文件”按钮。\n- 手动路径打开：支持在主页输入绝对路径打开文件。\n- 快速创建文件：支持在主页或文件管理工具栏快速创建并编辑新文件。\n实时语法校验：支持 JSON、HTML、CSS、JS/TS 原生校验及常见脚本语法校验。\n- 编码自动检测：自动检测 UTF-8, GBK, Big5, UTF-16 等常见编码，无需手动切换。\n- 配套浏览器拓展：支持在浏览器中持久化开启上述深度集成功能。",
     "labels": "工具,文本编辑器,开发",
     "platform": [
       "x86"
     ],
-    "version": "1.0.6",
+    "version": "1.0.7",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/m.text.editor",
     "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
-    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.0.6/m.text.editor.fpk",
+    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.0.7/m.text.editor.fpk",
     "install_type": "系统空间",
-    "size": "6.63",
-    "changelog": "适配 1.1.3104 ，注入脚本更换为去类名化方案，增加浏览器拓展：https://github.com/yuexps/m.text.editor/releases/download/v1.0.6/chrome_extension.zip",
+    "size": "6.08",
+    "changelog": "适配 1.1.3104 ，注入脚本更换为去类名化方案，新增语法校验与格式化功能，对编辑器界面进行汉化处理\n增加浏览器拓展：https://github.com/yuexps/m.text.editor/releases/download/v1.0.7/chrome_extension.zip",
     "isdocker": "false"
   }
 }
