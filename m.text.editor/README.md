@@ -9,6 +9,7 @@
 - **手动路径打开**：支持在主页输入绝对路径打开文件。
 - **快速创建文件**：支持在主页或文件管理工具栏快速创建并编辑新文件。
 - **编码自动检测**：自动检测 UTF-8, GBK, Big5, UTF-16 等常见编码，无需手动切换。
+- **实时语法校验**：支持 JSON、HTML、CSS、JS/TS 原生校验及常见脚本语法校验。
 - **全方位语法高亮**：
   - **主流开发**：JS/TS, HTML/CSS/SCSS, Go, Python, Rust, Java, C++, PHP, SQL...
   - **Web 框架**：Vue, Svelte, Astro, JSX/TSX...
