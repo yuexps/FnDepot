@@ -254,14 +254,14 @@
     "platform": [
       "x86"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/m.text.editor",
     "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
-    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.0.4/m.text.editor.fpk",
+    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.0.5/m.text.editor.fpk",
     "install_type": "系统空间",
-    "size": "6.45",
-    "changelog": "修复了一些bug，引入了更多Bug...",
+    "size": "6.6",
+    "changelog": "新增文件管理器内直接创建文件功能\n右键支持打开所有文本类型文件",
     "isdocker": "false"
   }
 }
