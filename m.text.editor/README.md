@@ -33,3 +33,4 @@
 
 - Monaco Editor：https://github.com/microsoft/monaco-editor
 - shuangji66 大佬的应用名称
+- 米恋泥 大佬的文件管理集成方案
