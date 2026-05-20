@@ -221,11 +221,11 @@
     "platform": [
       "x86"
     ],
-    "version": "26.5.14",
+    "version": "26.5.20",
     "distributor": "agentscope-ai",
     "distributor_url": "https://github.com/yuexps/QwenPaw-FNOS",
     "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
-    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.5.14/qwenpaw_yuexps.fpk",
+    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.5.20/qwenpaw_yuexps.fpk",
     "install_type": "系统空间",
     "size": "9.81",
     "changelog": "更新 QwenPaw 到 v1.1.7 版本",
