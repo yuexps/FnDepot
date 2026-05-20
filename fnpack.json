@@ -227,8 +227,8 @@
     "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
     "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.5.20/qwenpaw_yuexps.fpk",
     "install_type": "系统空间",
-    "size": "9.81",
-    "changelog": "更新 QwenPaw 到 v1.1.7 版本",
+    "size": "9.99",
+    "changelog": "更新 QwenPaw 到 v1.1.8 版本",
     "isdocker": "false"
   },
   "Chrome-for-Testing-yuexps": {
