@@ -254,14 +254,14 @@
     "platform": [
       "x86"
     ],
-    "version": "1.0.9",
+    "version": "1.1.0",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/m.text.editor",
     "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
-    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.0.9/m.text.editor.fpk",
+    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.1.0/m.text.editor.fpk",
     "install_type": "系统空间",
     "size": "6.09",
-    "changelog": "优化注入逻辑，已安装浏览器拓展则不再重复\n优化浏览器拓展，页面焕新\n优化 Iframe 窗口体验，支持窗口拖拽、缩放。\n浏览器拓展：https://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
+    "changelog": "支持向导自定义支持文件后缀\n优化注入逻辑，已安装浏览器拓展则不再重复\n优化浏览器拓展，页面焕新\n优化 Iframe 窗口体验，支持窗口拖拽、缩放。\n浏览器拓展：https://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
     "isdocker": "false"
   },
   "EaglercraftX-1.8.8": {
