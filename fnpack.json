@@ -258,10 +258,18 @@
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/m.text.editor",
     "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
-    "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.2.4/m.text.editor.fpk",
+    "download_url": "",
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.2.4/m.text.editor-1.2.4-x86.fpk"
+      },
+      "arm": {
+        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.2.4/m.text.editor-1.2.4-arm.fpk"
+      }
+    },
     "install_type": "系统空间",
-    "size": "6.25",
-    "changelog": "支持向导自定义支持文件后缀\n新增侧栏工作区文件树、多标签页管理、集成交互式Web终端、全局查找与替换、多功能设置面板及顶部操作菜单\n浏览器拓展：https://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
+    "size": "6.3",
+    "changelog": "支持向导自定义支持文件后缀,移动端新建体验优化\n新增侧栏工作区文件树、多标签页管理、集成交互式Web终端、全局查找与替换、多功能设置面板及顶部操作菜单\n浏览器拓展：https://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
     "isdocker": "false"
   },
   "EaglercraftX-1.8.8": {
