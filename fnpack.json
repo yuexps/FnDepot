@@ -258,7 +258,6 @@
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/m.text.editor",
     "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
-    "download_url": "",
     "arch_diff": {
       "x86": {
         "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.2.4/m.text.editor-1.2.4-x86.fpk"
