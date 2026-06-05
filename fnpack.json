@@ -254,16 +254,16 @@
     "platform": [
       "x86"
     ],
-    "version": "1.2.5",
+    "version": "1.2.6",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/m.text.editor",
     "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.2.5/m.text.editor-1.2.5-x86.fpk"
+        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.2.6/m.text.editor-1.2.6-x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.2.5/m.text.editor-1.2.5-arm.fpk"
+        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.2.6/m.text.editor-1.2.6-arm.fpk"
       }
     },
     "install_type": "系统空间",
