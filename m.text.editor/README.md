@@ -1,37 +1,38 @@
-# NotePod++
+# PodNote
 
-**NotePod++** 是一款轻量、极速的文本编辑器，它基于强大的 **Monaco Editor** 核心（VS Code 同款）。
+**PodNote** 是一款基于飞牛OS（FNOS）适配的轻量极速文本编辑器，搭载 Monaco Editor 内核。
 
-## 特性
+## 核心特性
 
-- **类 VS Code 视觉风格**：深色现代 UI
-- **文件管理深度集成**：在飞牛文件管理器内提供“右键编辑”菜单及工具栏“新建文件”按钮。
-- **手动路径打开**：支持在主页输入绝对路径打开文件。
-- **快速创建文件**：支持在主页或文件管理工具栏快速创建并编辑新文件。
-- **编码自动检测**：自动检测 UTF-8, GBK, Big5, UTF-16 等常见编码，无需手动切换。
-- **实时语法校验**：支持 JSON、HTML、CSS、JS/TS 原生校验及常见脚本语法校验。
-- **全方位语法高亮**：
-  - **主流开发**：JS/TS, HTML/CSS/SCSS, Go, Python, Rust, Java, C++, PHP, SQL...
-  - **Web 框架**：Vue, Svelte, Astro, JSX/TSX...
-  - **脚本运维**：Shell (sh/bash/zsh), PowerShell, AWK, Makefile, Dockerfile...
-  - **配置数据**：YAML, JSON, TOML, XML, INI, .env, .editorconfig...
-  - **安全凭据**：PEM, KEY, CRT, PUB, SSH 证书...
+* **现代编辑器工作区**：类 VS Code 活动栏与侧边栏，支持多标签页编辑、全局正则查找与替换、只读监听追踪。
+* **集成交互式终端**：基于 WebSocket 与 xterm.js，后端桥接 PTY 提供 Linux Bash 终端交互。
+* **深度适配飞牛OS**：支持在 FNOS 文件管理器中右键编辑、工具栏一键新建文件，支持常用编码智能识别。
+* **语言与语法支持**：主流开发语言语法高亮、前端框架及运维脚本支持，自带 JSON/HTML/CSS 语法校验。
 
-## 浏览器拓展使用
+## 目录结构
 
-为了在 FNOS 文件管理器中获得最佳的深度集成体验，建议安装配套的浏览器拓展：
+* [src/](./src/)：Go 后端服务源码。
+* [build/](./build/)：飞牛OS 打包分发资源（包含前端网页、配置及打包工具）。
+* [chrome_extension/](./chrome_extension/)：配套 FNOS 文件管理器集成的 Chrome/Edge 扩展源码。
+* [test/](./test/)：本地开发仿真调试环境。
 
-1. **安装步骤**：
-   - 打开 Chrome/Edge 浏览器，进入 `chrome://extensions/`。
-   - 开启右上角的“**开发者模式**”。
-   - 点击“**加载已解压的扩展程序**”，选择项目中的 `chrome_extension` 文件夹。
-2. **配置说明**：
-   - 点击浏览器工具栏的 NotePod++ 图标。
-   - 在“自定义网址 / 域名列表”中输入您的 FNOS 访问地址（例如 `192.168.1.100` 或自定义域名）。
-   - 拓展会自动感应并在文件管理器中注入“右键编辑”及“新建文件”功能。
+## 浏览器扩展使用
 
-## 感谢
+安装配套扩展以实现 FNOS 文件管理器右键无缝联动。
 
-- Monaco Editor：https://github.com/microsoft/monaco-editor
-- shuangji66 大佬的应用名称
-- 米恋泥 大佬的文件管理集成方案
+### 安装步骤
+1. **在线安装**：访问 [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge)。
+2. **本地安装**：
+   * 打开 `chrome://extensions/`，开启 **开发者模式**。
+   * 点击 **加载已解压的扩展程序**，选择项目内 `chrome_extension` 文件夹。
+
+### 配置方式
+1. 点击工具栏 PodNote 图标，在配置中填入 FNOS 访问地址（IP 或域名）。
+2. 在飞牛文件管理器中右键点击文件即可选择“使用 PodNote 编辑”。
+
+## 致谢
+
+* Monaco Editor: https://github.com/microsoft/monaco-editor
+* xterm.js: https://github.com/xtermjs/xterm.js
+* marked: https://github.com/markedjs/marked
+* 命名与集成方案：shuangji66, 米恋泥
