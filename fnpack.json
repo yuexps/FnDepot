@@ -268,7 +268,7 @@
     },
     "install_type": "系统空间",
     "size": "6.3",
-    "changelog": "支持向导自定义支持文件后缀,移动端新建体验优化\n新增侧栏工作区文件树、多标签页管理、集成交互式Web终端、全局查找与替换、多功能设置面板及顶部操作菜单\n浏览器拓展：https://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
+    "changelog": "支持向导自定义支持文件后缀,移动端新建体验优化\n新增侧栏工作区文件树、多标签页管理、集成交互式Web终端、全局查找与替换、多功能设置面板及顶部操作菜单\n全面放弃名字 NotePod++ 并更名为“祭祀本”\n浏览器拓展：https://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
     "isdocker": "false"
   },
   "EaglercraftX-1.8.8": {
