@@ -255,16 +255,16 @@
       "x86",
       "arm"
     ],
-    "version": "1.3.0",
+    "version": "1.3.1",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/m.text.editor",
     "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.3.0/m.text.editor-1.3.0-x86.fpk"
+        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.3.1/m.text.editor-1.3.1-x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.3.0/m.text.editor-1.3.0-arm.fpk"
+        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.3.1/m.text.editor-1.3.1-arm.fpk"
       }
     },
     "install_type": "系统空间",
