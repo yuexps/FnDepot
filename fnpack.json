@@ -38,14 +38,21 @@
     "platform": [
       "all"
     ],
-    "version": "26.5.10",
+    "version": "26.6.25",
     "distributor": "None",
     "distributor_url": "https://github.com/yuexps/v2raya-fnos",
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
-    "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.5.10/v2raya.fpk",
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.25-pre/v2raya_x86.fpk"
+      },
+      "arm": {
+        "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.25-pre/v2raya_arm.fpk"
+      }
+    },
     "install_type": "系统空间",
-    "size": "92.3",
-    "changelog": "**Native Unix Socket Integration**: Uses Unix Domain Socket for backend communication, ensuring ZERO TCP port occupation for the management interface.",
+    "size": "34",
+    "changelog": "Integrated Core Support: Powered by v2raya_core (v2ray/xray hybrid core) out of the box",
     "isdocker": "false"
   },
   "read": {
