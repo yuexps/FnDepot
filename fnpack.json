@@ -36,7 +36,8 @@
     "desc": "global transparent proxy and provides a web-based management interface.",
     "labels": "工具,网络",
     "platform": [
-      "all"
+      "x86",
+      "arm"
     ],
     "version": "26.6.25",
     "distributor": "None",
