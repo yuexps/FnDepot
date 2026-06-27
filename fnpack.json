@@ -300,13 +300,13 @@
     "platform": [
       "x86"
     ],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/usb_fan",
     "bug_report_url": "https://github.com/yuexps/usb_fan/issues",
-    "download_url": "https://github.com/yuexps/usb_fan/releases/download/v1.0.2/yuexps-usb-fan.fpk",
+    "download_url": "https://github.com/yuexps/usb_fan/releases/download/v1.0.3/yuexps-usb-fan.fpk",
     "install_type": "系统空间",
-    "size": "3.76",
+    "size": "3.86",
     "isdocker": "false"
   }
 }

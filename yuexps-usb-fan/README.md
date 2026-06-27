@@ -13,6 +13,8 @@
 | `floor` | `50.0` | 自动温控关闭下限温度，单位摄氏度 |
 | `mode` | `auto` | 默认启动模式，auto 为自动温控，manual 为手动控制 |
 | `poll_interval` | `3` | 后端温度采样与温控循环周期，单位秒 |
+| `min_run_time` | `30` | 继电器开启后的最少运行时间，单位秒，防止硬件频繁启停 |
+| `filter_window` | `3` | 自动温控的消抖判定次数，连续超温或低温达此次数才触发开关动作 |
 | `temp_path` | `hwmon:coretemp:temp1_input` | 温度传感器路径，支持 hwmon 格式（如 `hwmon:coretemp:temp1_input`）和 thermal_zone 绝对路径（如 `/sys/class/thermal/thermal_zone0/temp`） |
 | `has_feedback` | `true` | 是否支持反馈，true 为有反馈，false 为无反馈 |
 | `op_close_nofeed` | `A00100A1` | 无反馈关闭指令十六进制数据帧 |
