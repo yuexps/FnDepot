@@ -39,20 +39,20 @@
       "x86",
       "arm"
     ],
-    "version": "26.6.25",
+    "version": "26.6.28",
     "distributor": "None",
     "distributor_url": "https://github.com/yuexps/v2raya-fnos",
     "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.25-pre/v2raya_x86.fpk"
+        "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.28/v2raya_x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.25-pre/v2raya_arm.fpk"
+        "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.28/v2raya_arm.fpk"
       }
     },
     "install_type": "系统空间",
-    "size": "34",
+    "size": "32",
     "changelog": "Integrated Core Support: Powered by v2raya_core (v2ray/xray hybrid core) out of the box",
     "isdocker": "false"
   },
