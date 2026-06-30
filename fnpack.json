@@ -150,8 +150,7 @@
     "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.5-pre/2fmusic-0.1.5-c929237.fpk",
     "install_type": "系统空间",
     "size": "0.5",
-    "isdocker": "false",
-    "changelog": "包名更改yuexps.2fmusic,前端重构ing..."
+    "isdocker": "false"
   },
   "netease": {
     "display_name": "网易云API",
