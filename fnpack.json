@@ -151,7 +151,7 @@
     "install_type": "系统空间",
     "size": "0.5",
     "isdocker": "false",
-    "history": {
+    "changelog": {
       "v0.0.8": "feat:自动刮削与收藏夹功能",
       "v0.0.9": "feat:适配 Android APP",
       "v0.1.0": "fix:修复因应用名称首位数字导致的安装失败问题",
