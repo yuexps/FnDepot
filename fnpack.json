@@ -289,7 +289,7 @@
   },
   "firefox-docker": {
     "display_name": "Firefox",
-    "desc": "基于 Docker 的 Firefox 浏览器，支持通过 Web 远程访问，提供完整的桌面浏览体验。",
+    "desc": "基于 Docker 的 Firefox 浏览器，支持通过 Web 远程访问，提供完整的桌面浏览体验。\n已配置：亚洲时区、中文字体、阿里云镜像源、Bing 默认搜索、禁用自动更新。\n支持：音频、文件管理器、Web 终端、深色模式、HTTPS 安全连接、Web 鉴权。\n第一次启动比较慢，请耐心等待！如需修改配置，请卸载重装在安装向导配置！",
     "labels": "浏览器,工具",
     "platform": [
       "all"
@@ -301,6 +301,6 @@
     "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/firefox-docker.fpk",
     "install_type": "系统空间",
     "size": "0.17",
-    "isdocker": "false"
+    "isdocker": "true"
   }
 }
