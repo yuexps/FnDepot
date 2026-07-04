@@ -286,5 +286,21 @@
     "install_type": "系统空间",
     "size": "3.86",
     "isdocker": "false"
+  },
+  "firefox-docker": {
+    "display_name": "Firefox",
+    "desc": "基于 Docker 的 Firefox 浏览器，支持通过 Web 远程访问，提供完整的桌面浏览体验。",
+    "labels": "浏览器,工具",
+    "platform": [
+      "all"
+    ],
+    "version": "1.0.0",
+    "distributor": "jlesage",
+    "distributor_url": "https://github.com/yuexps/FnDepot",
+    "bug_report_url": "https://github.com/yuexps/FnDepot/issues",
+    "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/firefox-docker.fpk",
+    "install_type": "系统空间",
+    "size": "0.17",
+    "isdocker": "false"
   }
 }
