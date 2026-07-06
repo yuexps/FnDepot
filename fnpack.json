@@ -143,13 +143,13 @@
     "platform": [
       "all"
     ],
-    "version": "0.1.6",
+    "version": "0.1.7",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/2FMusic",
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
-    "download_url": "https://github.com/yuexps/2FMusic/releases/download/test/2fmusic-0.1.6-3b4768e.fpk",
+    "download_url": "https://github.com/yuexps/2FMusic/releases/download/test/2fmusic-0.1.7-6bafb0c.fpk",
     "install_type": "系统空间",
-    "size": "0.5",
+    "size": "0.45",
     "isdocker": "false"
   },
   "netease": {
