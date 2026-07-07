@@ -302,5 +302,21 @@
     "install_type": "系统空间",
     "size": "0.17",
     "isdocker": "true"
+  },
+  "lucky.yuexps": {
+    "display_name": "Lucky 3.0",
+    "desc": "Lucky适中版(lucky_docker)，支持 动态域名、反向代理、端口转发、STUN内网穿透、Docker管理、Web终端、网络唤醒、计划任务和自动证书等多项功能。\n参考徐大大封包方法，仅打包此版本自用！",
+    "labels": "工具,系统",
+    "platform": [
+      "x86"
+    ],
+    "version": "3.0.0",
+    "distributor": "yuexps",
+    "distributor_url": "https://github.com/yuexps/FnDepot",
+    "bug_report_url": "https://github.com/yuexps/FnDepot/issues",
+    "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/Lucky.yuexps.fpk",
+    "install_type": "系统空间",
+    "size": "17.2",
+    "isdocker": "false"
   }
 }
