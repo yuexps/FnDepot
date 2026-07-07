@@ -303,7 +303,7 @@
     "size": "0.17",
     "isdocker": "true"
   },
-  "lucky.yuexps": {
+  "Lucky.yuexps": {
     "display_name": "Lucky 3.0",
     "desc": "Lucky适中版(lucky_docker)，支持 动态域名、反向代理、端口转发、STUN内网穿透、Docker管理、Web终端、网络唤醒、计划任务和自动证书等多项功能。\n参考徐大大封包方法，仅打包此版本自用！",
     "labels": "工具,系统",
@@ -317,6 +317,7 @@
     "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/Lucky.yuexps.fpk",
     "install_type": "系统空间",
     "size": "17.2",
-    "isdocker": "false"
+    "isdocker": "false",
+    "changelog": "2026-07-05 v3.0.0 beta7\n1. 网络唤醒\n新增 Ping 探测地址设置，支持直观显示设备 IP 在线状态\n2. Web服务\n服务类型新增 网络唤醒快捷控制，无需再配置反向代理地址\n3. 其他细节优化和已知bug修复"
   }
 }
