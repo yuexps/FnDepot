@@ -319,5 +319,21 @@
     "size": "17.2",
     "isdocker": "false",
     "changelog": "2026-07-05 v3.0.0 beta7\n1. 网络唤醒\n新增 Ping 探测地址设置，支持直观显示设备 IP 在线状态\n2. Web服务\n服务类型新增 网络唤醒快捷控制，无需再配置反向代理地址\n3. 其他细节优化和已知bug修复"
+  },
+  "docker.updater": {
+    "display_name": "Docker Updater",
+    "desc": "Docker 容器 版本检测、一键升级",
+    "labels": "工具,Docker",
+    "platform": [
+      "x86"
+    ],
+    "version": "1.0.5",
+    "distributor": "yuexps",
+    "distributor_url": "https://github.com/yuexps/docker.updater",
+    "bug_report_url": "https://github.com/yuexps/docker.updater/issues",
+    "download_url": "https://github.com/yuexps/docker.updater/releases/download/1.0.5/docker.updater.fpk",
+    "install_type": "系统空间",
+    "size": "10.6",
+    "isdocker": "false"
   }
 }
