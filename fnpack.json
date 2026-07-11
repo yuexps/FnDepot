@@ -327,11 +327,11 @@
     "platform": [
       "x86"
     ],
-    "version": "1.0.6",
+    "version": "1.0.7",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/docker.updater",
     "bug_report_url": "https://github.com/yuexps/docker.updater/issues",
-    "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.0.6/docker.updater.fpk",
+    "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.0.7/docker.updater.fpk",
     "install_type": "系统空间",
     "size": "10.6",
     "isdocker": "false"
