@@ -322,16 +322,16 @@
   },
   "docker.updater": {
     "display_name": "Docker Updater",
-    "desc": "Docker 容器升级管理工具，自动检测镜像更新，支持批量一键升级、版本指定更新，内置备份回滚，任务可管控，检测与升级事件支持邮件、Webhook 通知推送。",
+    "desc": "Docker 容器更新检测与升级管理器，支持版本升级、备份回滚及消息通知。",
     "labels": "工具,Docker",
     "platform": [
       "x86"
     ],
-    "version": "1.0.8",
+    "version": "1.0.9",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/docker.updater",
     "bug_report_url": "https://github.com/yuexps/docker.updater/issues",
-    "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.0.8/docker.updater.fpk",
+    "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.0.9/docker.updater.fpk",
     "install_type": "系统空间",
     "size": "10.6",
     "isdocker": "false"
