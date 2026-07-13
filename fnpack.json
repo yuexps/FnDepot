@@ -322,7 +322,7 @@
   },
   "docker.updater": {
     "display_name": "Docker Updater",
-    "desc": "Docker 容器 版本检测、一键升级",
+    "desc": "Docker 容器升级管理工具，自动检测镜像更新，支持批量一键升级、版本指定更新，内置备份回滚，任务可管控，检测与升级事件支持邮件、Webhook 通知推送。",
     "labels": "工具,Docker",
     "platform": [
       "x86"
