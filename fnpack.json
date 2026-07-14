@@ -316,9 +316,9 @@
     "bug_report_url": "https://github.com/yuexps/FnDepot/issues",
     "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/Lucky.yuexps.fpk",
     "install_type": "系统空间",
-    "size": "17.2",
+    "size": "17.39",
     "isdocker": "false",
-    "changelog": "2026-07-05 v3.0.0 beta7\n1. 网络唤醒\n新增 Ping 探测地址设置，支持直观显示设备 IP 在线状态\n2. Web服务\n服务类型新增 网络唤醒快捷控制，无需再配置反向代理地址\n3. 其他细节优化和已知bug修复"
+    "changelog": "2026-07-09 Lucky 3.0.0 beta8 更新日志\n1. 网络唤醒：网络唤醒快捷控制页面重构\n2. SSL证书：内置适配支持新证书申请机构，LiteSSL 。国内网络不好、申请 ZeroSSL 或 Let's Encrypt 经常失败的话可以试试这个。\n顺便提醒一下： Lucky 是支持同一个域名同时在多家机构申请证书的。系统会自动挑有效期最长的来使用。\n3. IP 过滤：过滤类型里加了 “IP 信息关键词匹配”，配合高精度IP地址库使用 封禁或放行更灵活。\n4. IP地址库: 增加 GeoCN（geocn） 离线 IP 库： 支持中国大陆 IPv4/IPv6 的高精度离线库，有需要的自己去下载：\nhttps://github.com/ljxi/GeoCN\n离线库直连下载：https://github.com/ljxi/GeoCN/releases/latest/download/GeoCN.mmdb\n5. Web 终端： Web 终端弹窗支持拖拽移动\n6. 修复其它已知 Bug"
   },
   "docker.updater": {
     "display_name": "Docker Updater",
