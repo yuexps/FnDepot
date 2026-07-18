@@ -138,19 +138,20 @@
   },
   "yuexps.2fmusic": {
     "display_name": "2FMusic",
-    "desc": "轻量本地音乐播放器\n本地音乐库: 自动扫描目录、识别 ID3 元数据（封面、歌词），支持网络源自动补充\n沉浸式播放器: 响应式 UI、歌词滚动显示、封面主题色提取、快捷键控制\n目录管理: 添加服务器任意文件夹到音乐库，无需移动文件\n网易云集成: 搜索、高品质下载、链接解析、扫码登录同步歌单\n精致界面: 暗色/亮色模式、自定义背景\nAndroid APP：https://github.com/yuexps/2FMusic/releases/download/v0.1.7-6bafb0c-pre/2FMusic.apk",
+    "desc": "轻量本地音乐播放器\n本地音乐库: 自动扫描目录、识别 ID3 元数据（封面、歌词），支持网络源自动补充\n沉浸式播放器: 响应式 UI、歌词滚动显示、封面主题色提取、快捷键控制\n目录管理: 添加服务器任意文件夹到音乐库，无需移动文件\n网易云集成: 搜索、高品质下载、链接解析、扫码登录同步歌单\n专属Android客户端：https://github.com/yuexps/2FMusic-Android\n集成Folia: 以全屏沉浸式歌词播放为核心的在线音乐播放器，支持网易云",
     "labels": "工具,音乐",
     "platform": [
       "all"
     ],
-    "version": "0.1.7",
+    "version": "0.1.9",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/2FMusic",
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
-    "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.7-6bafb0c-pre/2fmusic-0.1.7-6bafb0c.fpk",
+    "download_url": "https://github.com/yuexps/2FMusic/releases/download/test/2fmusic-0.1.9-d858304.fpk",
     "install_type": "系统空间",
-    "size": "0.45",
-    "isdocker": "false"
+    "size": "6.13",
+    "isdocker": "false",
+    "changelog": "1.Android客户端功能更新(建议更新1.1.3)\n2.Web端尝试内置Folia播放器"
   },
   "netease": {
     "display_name": "网易云API",
