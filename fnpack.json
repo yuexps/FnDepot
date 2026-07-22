@@ -147,7 +147,7 @@
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/2FMusic",
     "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
-    "download_url": "https://github.com/yuexps/2FMusic/releases/download/test/2fmusic-0.1.9-d858304.fpk",
+    "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.9-d858304-pre/2fmusic-0.1.9-d858304.fpk",
     "install_type": "系统空间",
     "size": "6.13",
     "isdocker": "false",
