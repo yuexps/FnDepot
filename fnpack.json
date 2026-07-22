@@ -208,14 +208,14 @@
     "platform": [
       "x86"
     ],
-    "version": "26.7.17",
+    "version": "26.7.20",
     "distributor": "agentscope-ai",
     "distributor_url": "https://github.com/yuexps/QwenPaw-FNOS",
     "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
-    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.7.17/qwenpaw_yuexps.fpk",
+    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.7.20/qwenpaw_yuexps.fpk",
     "install_type": "系统空间",
     "size": "9.99",
-    "changelog": "更新 QwenPaw 到 v2.0.0.post2 版本",
+    "changelog": "更新 QwenPaw 到 v2.0.0.post3 版本",
     "isdocker": "false"
   },
   "Chrome-for-Testing-yuexps": {
