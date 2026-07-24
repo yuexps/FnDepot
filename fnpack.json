@@ -329,20 +329,20 @@
       "x86",
       "arm"
     ],
-    "version": "1.1.0",
+    "version": "1.1.1",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/docker.updater",
     "bug_report_url": "https://github.com/yuexps/docker.updater/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.0/docker.updater-x86.fpk"
+        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.1/docker.updater-x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.0/docker.updater-arm.fpk"
+        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.1/docker.updater-arm.fpk"
       }
     },
     "install_type": "系统空间",
-    "size": "10.6",
+    "size": "10.9",
     "isdocker": "false"
   }
 }
