@@ -323,26 +323,26 @@
   },
   "docker.updater": {
     "display_name": "Docker Updater",
-    "desc": "Docker 容器更新检测与升级管理器，支持版本升级、备份回滚及消息通知。",
+    "desc": "Docker 容器更新检测与升级管理器，支持版本升级、更新消息通知。",
     "labels": "工具,Docker",
     "platform": [
       "x86",
       "arm"
     ],
-    "version": "1.1.1",
+    "version": "1.1.2",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/docker.updater",
     "bug_report_url": "https://github.com/yuexps/docker.updater/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.1/docker.updater-x86.fpk"
+        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.2/docker.updater-x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.1/docker.updater-arm.fpk"
+        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.2/docker.updater-arm.fpk"
       }
     },
     "install_type": "系统空间",
-    "size": "10.9",
+    "size": "11.2",
     "isdocker": "false"
   }
 }
