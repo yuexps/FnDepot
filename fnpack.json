@@ -347,26 +347,26 @@
   },
   "deepseek.harness": {
     "display_name": "DeepSeek Harness",
-    "desc": "DeepSeek Harness 管理应用，支持管理 Harness 服务的启动、停止、重启、源码构建与升级。",
+    "desc": "DeepSeek Harness 管理应用，支持管理 Harness 服务的启动、停止、重启、源码构建与升级。\n如果安装依赖或构建失败，可尝试使用内置依赖预构建版：https://github.com/yuexps/deepseek.harness.fnos/releases",
     "labels": "工具,DeepSeek",
     "platform": [
       "x86",
       "arm"
     ],
-    "version": "0.1.8",
+    "version": "0.1.9",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/deepseek.harness.fnos",
     "bug_report_url": "https://github.com/yuexps/deepseek.harness.fnos/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.1.8/deepseek.harness-x86.fpk"
+        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.1.9/deepseek.harness-x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.1.8/deepseek.harness-arm.fpk"
+        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.1.9/deepseek.harness-arm.fpk"
       }
     },
     "install_type": "系统空间",
-    "size": "35.1",
+    "size": "33.3",
     "isdocker": "false"
   }
 }
