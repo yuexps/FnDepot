@@ -354,7 +354,7 @@
       "arm"
     ],
     "version": "0.2.6-1",
-    "distributor": "源码版",
+    "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/deepseek.harness.fnos",
     "bug_report_url": "https://github.com/yuexps/deepseek.harness.fnos/issues",
     "arch_diff": {
