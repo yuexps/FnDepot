@@ -367,6 +367,6 @@
     },
     "install_type": "系统空间",
     "size": "74.8",
-    "isdocker": "false",
+    "isdocker": "false"
   }
 }
