@@ -353,16 +353,16 @@
       "x86",
       "arm"
     ],
-    "version": "0.2.7-1",
+    "version": "0.2.8",
     "distributor": "yuexps",
     "distributor_url": "https://github.com/yuexps/deepseek.harness.fnos",
     "bug_report_url": "https://github.com/yuexps/deepseek.harness.fnos/issues",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.2.7-1/deepseek.harness-x86.fpk"
+        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.2.8/deepseek.harness-x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.2.7-1/deepseek.harness-arm.fpk"
+        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.2.8/deepseek.harness-arm.fpk"
       }
     },
     "install_type": "系统空间",
