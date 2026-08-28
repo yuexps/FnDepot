@@ -1,372 +1,702 @@
 {
-  "lunatv": {
-    "display_name": "LunaTV",
-    "desc": "LunaTV is a media streaming service packaged as a Docker application for FNOS.",
-    "labels": "工具,影视",
-    "platform": [
-      "x86"
-    ],
-    "version": "1.0.0",
-    "distributor": "MoonTechLab",
-    "distributor_url": "https://github.com/MoonTechLab/LunaTV",
-    "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
-    "download_url": "https://github.com/yuexps/lunatv-fnos/releases/download/1.0.0/lunatv.fpk",
-    "install_type": "系统空间",
-    "size": "1",
-    "isdocker": "true"
+  "schema_version": "2",
+  "source_info": {
+    "name": "MSFXP",
+    "author": "yuexps",
+    "homepage": "https://github.com/yuexps/FnDepot",
+    "description": "飞牛第三方应用仓库 (FnDepot)"
   },
-  "reader": {
-    "display_name": "Reader",
-    "desc": "Reader 是一款开源的网络小说阅读器，提供书源管理、书架同步、WebDAV备份等功能，支持多用户模式。",
-    "labels": "工具,阅读",
-    "platform": [
-      "x86"
-    ],
-    "version": "3.2.14",
-    "distributor": "hectorqin",
-    "distributor_url": "https://github.com/hectorqin/reader",
-    "bug_report_url": "https://github.com/yuexps/reader-fnos/issues",
-    "download_url": "https://github.com/yuexps/reader-fnos/releases/download/3.2.14/reader.fpk",
-    "install_type": "系统空间",
-    "size": "66",
-    "isdocker": "false"
-  },
-  "v2raya": {
-    "display_name": "V2",
-    "desc": "global transparent proxy and provides a web-based management interface.",
-    "labels": "工具,网络",
-    "platform": [
-      "x86",
-      "arm"
-    ],
-    "version": "26.6.30",
-    "distributor": "None",
-    "distributor_url": "https://github.com/yuexps/v2raya-fnos",
-    "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
-    "arch_diff": {
-      "x86": {
-        "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.30/v2raya_x86.fpk"
-      },
-      "arm": {
-        "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.30/v2raya_arm.fpk"
+  "apps": {
+    "lunatv": {
+      "display_name": "LunaTV",
+      "desc": "LunaTV is a media streaming service packaged as a Docker application for FNOS.",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "./lunatv/ICON.PNG",
+      "readme_url": "./lunatv/README.md",
+      "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
+      "distributor": "MoonTechLab",
+      "distributor_url": "https://github.com/MoonTechLab/LunaTV",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": true,
+      "releases": {
+        "1.0.0": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/lunatv-fnos/releases/download/1.0.0/lunatv.fpk",
+              "sha256": "76ffc82a4f0cfe4410e4d4c21842674a428297d64985e30b9146a951d087c335",
+              "size": 181317
+            }
+          }
+        }
       }
     },
-    "install_type": "系统空间",
-    "size": "32",
-    "changelog": "Integrated Core Support: Powered by v2raya_core (v2ray/xray hybrid core) out of the box",
-    "isdocker": "false"
-  },
-  "read": {
-    "display_name": "轻阅读",
-    "desc": "轻阅读APP后端，支持全端，不管是手机还是大屏设备都适配了ui，可以在全端同步进度。开源阅读不方便同步轻阅读进度，并且开源阅读过于复杂，移植多端难度较大，通过同一个后端的方法，可以做到多端体验基本一致。 \n 后台地址: http://ip:15432/admin \n APP下载地址: https://github.com/autobcb/read/releases/tag/3.3.3",
-    "labels": "工具,阅读",
-    "platform": [
-      "x86"
-    ],
-    "version": "3.3.3",
-    "distributor": "autobcb",
-    "distributor_url": "https://github.com/autobcb/read",
-    "bug_report_url": "https://github.com/UCKETX/qreader-fnos/issues",
-    "download_url": "https://github.com/UCKETX/qreader-fnos/releases/download/3.3.3/read.fpk",
-    "install_type": "系统空间",
-    "size": "0.035",
-    "isdocker": "true"
-  },
-  "moviepilot": {
-    "display_name": "MoviePilot",
-    "desc": "MoviePilot 是新一代智能化个人媒体库管理工具，基于前后端分离设计架构，拥有丰富的插件生态系统。",
-    "labels": "工具,影视",
-    "platform": [
-      "x86"
-    ],
-    "version": "3.3",
-    "distributor": "jxxghp",
-    "distributor_url": "https://github.com/jxxghp/MoviePilot",
-    "bug_report_url": "https://github.com/UCKETX/moviepilot/issues",
-    "download_url": "https://github.com/UCKETX/moviepilot/releases/download/3.3/moviepilot.fpk",
-    "install_type": "系统空间",
-    "size": "0.15",
-    "isdocker": "true"
-  },
-  "lunatv-enhanced": {
-    "display_name": "LunaTV Enhanced",
-    "desc": "基于 MoonTV 深度二次开发的全功能影视聚合播放平台，新增 YouTube 集成、网盘搜索、AI 推荐、短剧功能、IPTV 直播、Bangumi 动漫、播放统计、弹幕系统等 50+ 重大功能增强，打造极致的在线观影体验。",
-    "labels": "工具,影视",
-    "platform": [
-      "x86"
-    ],
-    "version": "1.0.0",
-    "distributor": "SzeMeng76",
-    "distributor_url": "https://github.com/SzeMeng76/LunaTV",
-    "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
-    "download_url": "https://github.com/yuexps/lunatv-enhanced-fnos/releases/download/1.0.0/lunatv-enhanced.fpk",
-    "install_type": "系统空间",
-    "size": "1",
-    "isdocker": "true"
-  },
-  "iventoy": {
-    "display_name": "iVentoy",
-    "desc": "iVentoy 是一个基于 PXE 协议的网络启动工具，支持同时启动多台机器，同时支持多种操作系统的安装。",
-    "labels": "工具,系统",
-    "platform": [
-      "x86"
-    ],
-    "version": "1.0.20",
-    "distributor": "longpanda",
-    "distributor_url": "https://iventoy.com/cn/index.html",
-    "bug_report_url": "https://github.com/UCKETX/iventoy/issues",
-    "download_url": "https://github.com/UCKETX/iventoy/releases/download/1.0.20/iventoy.fpk",
-    "install_type": "系统空间",
-    "size": "13.4",
-    "isdocker": "false"
-  },
-  "omnibox": {
-    "display_name": "OmniBox",
-    "desc": "OmniBox 是一个功能强大的影视综合站，解决了资源分散、查找困难的问题，为影视爱好者提供一站式的观影解决方案。它整合了常见的采集站、网盘资源、IPTV 直播源、各大直播平台等，无论您是付费会员、还是习惯于搜索免费资源，它都能满足您的需求。",
-    "labels": "工具,影视",
-    "platform": [
-      "x86"
-    ],
-    "version": "1.0.0",
-    "distributor": "longpanda",
-    "distributor_url": "",
-    "bug_report_url": "https://github.com/UCKETX/omnibox/issues",
-    "download_url": "https://github.com/UCKETX/omnibox/releases/download/1.0.0/omnibox.fpk",
-    "install_type": "系统空间",
-    "size": "0.12",
-    "isdocker": "true"
-  },
-  "yuexps.2fmusic": {
-    "display_name": "2FMusic",
-    "desc": "轻量本地音乐播放器\n本地音乐库: 自动扫描目录、识别 ID3 元数据（封面、歌词），支持网络源自动补充\n沉浸式播放器: 响应式 UI、歌词滚动显示、封面主题色提取、快捷键控制\n目录管理: 添加服务器任意文件夹到音乐库，无需移动文件\n网易云集成: 搜索、高品质下载、链接解析、扫码登录同步歌单\n专属Android客户端：https://github.com/yuexps/2FMusic-Android\n集成Folia: 以全屏沉浸式歌词播放为核心的在线音乐播放器，支持网易云",
-    "labels": "工具,音乐",
-    "platform": [
-      "all"
-    ],
-    "version": "0.1.9",
-    "distributor": "yuexps",
-    "distributor_url": "https://github.com/yuexps/2FMusic",
-    "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
-    "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.9-d858304-pre/2fmusic-0.1.9-d858304.fpk",
-    "install_type": "系统空间",
-    "size": "6.13",
-    "isdocker": "false",
-    "changelog": "1.Android客户端功能更新(建议更新1.1.3)\n2.Web端尝试内置Folia播放器"
-  },
-  "netease": {
-    "display_name": "网易云API",
-    "desc": "网易云API，提供网易云音乐的API接口，推荐下载 2FMusic 使用此API",
-    "labels": "工具,音乐",
-    "platform": [
-      "x86"
-    ],
-    "version": "1.0.0",
-    "distributor": "NeteaseCloudMusicApiEnhanced",
-    "distributor_url": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced",
-    "bug_report_url": "https://github.com/UCKETX/netease/issues",
-    "download_url": "https://github.com/UCKETX/netease/releases/download/1.0.0/netease.fpk",
-    "install_type": "系统空间",
-    "size": "0.03",
-    "isdocker": "true"
-  },
-  "antigravity": {
-    "display_name": "Antigravity",
-    "desc": "Antigravity 是一个专为开发者和 AI 爱好者设计的全功能桌面应用。它将多账号管理、协议转换 and 智能请求调度完美结合，为您提供一个稳定、极速且成本低廉的 本地 AI 中转站。",
-    "labels": "工具,AI",
-    "platform": [
-      "x86"
-    ],
-    "version": "3.3.15",
-    "distributor": "lbjlaq",
-    "distributor_url": "https://github.com/lbjlaq/Antigravity-Manager",
-    "bug_report_url": "https://github.com/lbjlaq/Antigravity-Manager/issues",
-    "download_url": "",
-    "install_type": "系统空间",
-    "size": "7.8",
-    "isdocker": "false"
-  },
-  "mcsmanager": {
-    "display_name": "MCSManager",
-    "desc": "注意：此版以ROOT权限运行；\n开源，一键开服，分布式架构，多用户，现代化的 Minecraft and Steam 游戏服务器管理面板，此应用整合了节点端和面板端两个子应用，默认需要 23333 and 24444 端口才可正常工作。",
-    "labels": "工具,面板,ROOT",
-    "platform": [
-      "all"
-    ],
-    "version": "10.18.0",
-    "distributor": "YuMao",
-    "distributor_url": "https://github.com/MCSManager/MCSManager",
-    "bug_report_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/issues",
-    "download_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/releases/download/v10.18.0/mcsmanager.fpk",
-    "install_type": "系统空间",
-    "size": "32.5",
-    "isdocker": "false"
-  },
-  "qwenpaw_yuexps": {
-    "display_name": "QwenPaw",
-    "desc": "你的 AI 个人助理；安装极简、本地与云上均可部署；支持多端接入、能力轻松扩展。\n\n 核心能力：\n 由你掌控 — 记忆与个性化完全由你掌控，支持本地或云端部署。无第三方托管，无数据上传。\nSkills 扩展 — 内置定时任务、PDF/Office 处理、新闻摘要等；自定义技能自动加载，无绑定。通过 Skills 决定 QwenPaw 能做什么。\n 多智能体协作 — 创建多个独立智能体，各司其职；启用协作技能，智能体间互相通信共同完成复杂任务。\n 多层安全防护 — 工具防护、文件访问控制、技能安全扫描，保障运行安全。\n 全域触达 — 钉钉、飞书、微信、Discord、Telegram 等频道，一个 QwenPaw 按需连接。\n 记忆进化与主动交互 — 智能体从交互中学习、反思经验、主动服务，越用越聪明。\n\n 可选依赖：\nChrome-for-Testing-yuexps — 浏览器控制，网页浏览、截图等技能 \nNode.js v22 — 部分技能执行环境，支持 Node.js 类型技能",
-    "labels": "工具,AI",
-    "platform": [
-      "x86"
-    ],
-    "version": "26.8.27",
-    "distributor": "agentscope-ai",
-    "distributor_url": "https://github.com/yuexps/QwenPaw-FNOS",
-    "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
-    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.8.27/qwenpaw_yuexps.fpk",
-    "install_type": "系统空间",
-    "size": "9.99",
-    "changelog": "更新 QwenPaw 到 v2.1.0 版本",
-    "isdocker": "false"
-  },
-  "Chrome-for-Testing-yuexps": {
-    "display_name": "Chrome for Testing",
-    "desc": "Chrome 变种，专门针对 Web 应用测试和自动化用例。支持 Playwright，配合QwenPaw使用。\nPLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/var/apps/Chrome-for-Testing-yuexps/target/chrome-headless-shell'",
-    "labels": "工具,浏览器,无头",
-    "platform": [
-      "x86"
-    ],
-    "version": "145.0.7632.6",
-    "distributor": "Chrome for Developers",
-    "distributor_url": "https://github.com/yuexps/QwenPaw-FNOS",
-    "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
-    "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.4.30/Chrome-for-Testing-yuexps.fpk",
-    "install_type": "系统空间",
-    "size": "102.74",
-    "isdocker": "false"
-  },
-  "m.text.editor": {
-    "display_name": "PodNote",
-    "desc": "PodNote 是一款基于飞牛OS（FNOS）适配的轻量极速文本编辑器，搭载 Monaco Editor 内核。\n- 现代编辑器工作区：类 VS Code 活动栏与侧边栏，支持多标签页编辑、全局正则查找与替换、只读监听追踪。\n- 集成交互式终端：基于 WebSocket 与 xterm.js，后端桥接 PTY 提供 Linux Bash 终端交互。\n- 深度适配飞牛OS：支持在 FNOS 文件管理器中右键编辑、工具栏一键新建文件，支持常用编码智能识别。\n- 语言与语法支持：主流开发语言语法高亮、前端框架及运维脚本支持，自带 JSON/HTML/CSS 语法校验。\n- 配套浏览器拓展：实现 FNOS 文件管理器右键无缝联动。\nhttps://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
-    "labels": "工具,文本编辑器,开发",
-    "platform": [
-      "x86",
-      "arm"
-    ],
-    "version": "1.3.9",
-    "distributor": "yuexps",
-    "distributor_url": "https://github.com/yuexps/m.text.editor",
-    "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
-    "arch_diff": {
-      "x86": {
-        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.3.9/m.text.editor-1.3.9-x86.fpk"
-      },
-      "arm": {
-        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.3.9/m.text.editor-1.3.9-arm.fpk"
+    "reader": {
+      "display_name": "Reader",
+      "desc": "Reader 是一款开源的网络小说阅读器，提供书源管理、书架同步、WebDAV备份等功能，支持多用户模式。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "生活服务"
+      ],
+      "icon_url": "./reader/ICON.PNG",
+      "readme_url": "./reader/README.md",
+      "bug_report_url": "https://github.com/yuexps/reader-fnos/issues",
+      "distributor": "hectorqin",
+      "distributor_url": "https://github.com/hectorqin/reader",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "3.2.14": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/reader-fnos/releases/download/3.2.14/reader.fpk",
+              "sha256": "ce5c9450fbfbababf53a293ab89b83bc6509e5feffd317cb6ba15b7aa9de8276",
+              "size": 69045673
+            }
+          }
+        }
       }
     },
-    "install_type": "系统空间",
-    "size": "6.5",
-    "changelog": "修复了一些Bug~",
-    "isdocker": "false"
-  },
-  "EaglercraftX-1.8.8": {
-    "display_name": "EaglercraftX-1.8.8",
-    "desc": "试试在浏览器中玩Minecraft吧！！！\nEaglercraft的1.8.8版本，由lax1dude制作。这是目前最稳定且部署最广泛的Eaglercraft版本。",
-    "labels": "游戏,Minecraft,我的世界",
-    "platform": [
-      "all"
-    ],
-    "version": "1.8.8",
-    "distributor": "lax1dude",
-    "install_type": "系统空间",
-    "size": "23.7",
-    "isdocker": "false"
-  },
-  "yuexps-usb-fan": {
-    "display_name": "USB Fan",
-    "desc": "飞牛 NAS (FNOS) 的 USB 继电器 温控程序。\n使用方法看 README.md",
-    "labels": "工具,系统",
-    "platform": [
-      "x86"
-    ],
-    "version": "1.0.3",
-    "distributor": "yuexps",
-    "distributor_url": "https://github.com/yuexps/usb_fan",
-    "bug_report_url": "https://github.com/yuexps/usb_fan/issues",
-    "download_url": "https://github.com/yuexps/usb_fan/releases/download/v1.0.3/yuexps-usb-fan.fpk",
-    "install_type": "系统空间",
-    "size": "3.86",
-    "isdocker": "false"
-  },
-  "firefox-docker": {
-    "display_name": "Firefox",
-    "desc": "基于 Docker 的 Firefox 浏览器，支持通过 Web 远程访问，提供完整的桌面浏览体验。\n已配置：亚洲时区、中文字体、阿里云镜像源、禁用自动更新。\n支持：音频、文件管理器、Web 终端、深色模式、HTTPS 安全连接、Web 鉴权。\n第一次启动比较慢，请耐心等待！如需修改配置，请卸载重装在安装向导配置！",
-    "labels": "浏览器,工具",
-    "platform": [
-      "all"
-    ],
-    "version": "1.0.1",
-    "distributor": "jlesage",
-    "distributor_url": "https://github.com/yuexps/FnDepot",
-    "bug_report_url": "https://github.com/yuexps/FnDepot/issues",
-    "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/firefox-docker.fpk",
-    "install_type": "系统空间",
-    "size": "0.17",
-    "isdocker": "true"
-  },
-  "Lucky.yuexps": {
-    "display_name": "Lucky 3.0",
-    "desc": "Lucky适中版(lucky_docker)，支持 动态域名、反向代理、端口转发、STUN内网穿透、Docker管理、Web终端、网络唤醒、计划任务和自动证书等多项功能。\n参考徐大大封包方法，仅打包此版本自用！\n初始账号:666 密码:666",
-    "labels": "工具,系统",
-    "platform": [
-      "x86"
-    ],
-    "version": "3.0.0",
-    "distributor": "yuexps",
-    "distributor_url": "https://github.com/yuexps/FnDepot",
-    "bug_report_url": "https://github.com/yuexps/FnDepot/issues",
-    "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/Lucky.yuexps.fpk",
-    "install_type": "系统空间",
-    "size": "17.39",
-    "isdocker": "false",
-    "changelog": "2026-07-09 Lucky 3.0.0 beta8 更新日志\n1. 网络唤醒：网络唤醒快捷控制页面重构\n2. SSL证书：内置适配支持新证书申请机构，LiteSSL 。国内网络不好、申请 ZeroSSL 或 Let's Encrypt 经常失败的话可以试试这个。\n顺便提醒一下： Lucky 是支持同一个域名同时在多家机构申请证书的。系统会自动挑有效期最长的来使用。\n3. IP 过滤：过滤类型里加了 “IP 信息关键词匹配”，配合高精度IP地址库使用 封禁或放行更灵活。\n4. IP地址库: 增加 GeoCN（geocn） 离线 IP 库： 支持中国大陆 IPv4/IPv6 的高精度离线库，有需要的自己去下载：\nhttps://github.com/ljxi/GeoCN\n离线库直连下载：https://github.com/ljxi/GeoCN/releases/latest/download/GeoCN.mmdb\n5. Web 终端： Web 终端弹窗支持拖拽移动\n6. 修复其它已知 Bug"
-  },
-  "docker.updater": {
-    "display_name": "Docker Updater",
-    "desc": "Docker 容器更新检测与升级管理器，支持版本升级、更新消息通知。",
-    "labels": "工具,Docker",
-    "platform": [
-      "x86",
-      "arm"
-    ],
-    "version": "1.1.4",
-    "distributor": "yuexps",
-    "distributor_url": "https://github.com/yuexps/docker.updater",
-    "bug_report_url": "https://github.com/yuexps/docker.updater/issues",
-    "arch_diff": {
-      "x86": {
-        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.4/docker.updater-x86.fpk"
-      },
-      "arm": {
-        "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.4/docker.updater-arm.fpk"
+    "v2raya": {
+      "display_name": "V2",
+      "desc": "global transparent proxy and provides a web-based management interface.",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "./v2raya/ICON.PNG",
+      "bug_report_url": "https://github.com/yuexps/v2raya-fnos/issues",
+      "distributor": "None",
+      "distributor_url": "https://github.com/yuexps/v2raya-fnos",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "26.6.30": {
+          "changelog": "Integrated Core Support: Powered by v2raya_core (v2ray/xray hybrid core) out of the box",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.30/v2raya_x86.fpk",
+              "sha256": "802a251229a68c0d97728746c8f88b1633fe4b6b360008237a21ec9a1b9b7f40",
+              "size": 33852499
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.30/v2raya_arm.fpk",
+              "sha256": "8ebe590640225f0bd5115bfa2c62b91035c61d6da23976b8da3bf054df8b2f40",
+              "size": 31840865
+            }
+          }
+        }
       }
     },
-    "install_type": "系统空间",
-    "size": "11.3",
-    "isdocker": "false"
-  },
-  "deepseek.harness": {
-    "display_name": "DeepSeek Harness",
-    "desc": "专为飞牛打造的 DeepSeek Harness 一键部署与可视化管理应用。\n <br>服务控制：支持启动、停止、重启、拉取更新与强制重建，内置进程组清理。\n <br>插件管理：支持命令安装（npm 包 / GitHub 仓库）、构建脚本自动放行（allowBuilds）、一键启停与卸载。\n <br>工作区查看：实时同步工作区列表、关联会话数及更新时间，支持在文件管理中一键定位目录。\n <br>安全与网关：支持飞牛统一网关、单端口 HTTP/HTTPS 自适应反代与外部自定义地址，提供访问密码鉴权\n <br>运行日志：WebSocket 实时推送日志，支持语法高亮、自动滚动、日志轮转、清空与下载。\n <br>应用设置：支持配置服务端口、反向代理端口、打开方式、访问密码及网络代理，端口占用检测与热重载。",
-    "labels": "工具,DeepSeek",
-    "platform": [
-      "x86",
-      "arm"
-    ],
-    "version": "0.2.8",
-    "distributor": "yuexps",
-    "distributor_url": "https://github.com/yuexps/deepseek.harness.fnos",
-    "bug_report_url": "https://github.com/yuexps/deepseek.harness.fnos/issues",
-    "arch_diff": {
-      "x86": {
-        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.2.8/deepseek.harness-x86.fpk"
-      },
-      "arm": {
-        "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.2.8/deepseek.harness-arm.fpk"
+    "read": {
+      "display_name": "轻阅读",
+      "desc": "轻阅读APP后端，支持全端，不管是手机还是大屏设备都适配了ui，可以在全端同步进度。开源阅读不方便同步轻阅读进度，并且开源阅读过于复杂，移植多端难度较大，通过同一个后端的方法，可以做到多端体验基本一致。 \n 后台地址: http://ip:15432/admin \n APP下载地址: https://github.com/autobcb/read/releases/tag/3.3.3",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "生活服务"
+      ],
+      "icon_url": "./read/ICON.PNG",
+      "preview_urls": [
+        "./read/Preview/book.png",
+        "./read/Preview/cookie.png",
+        "./read/Preview/editsource.jpg",
+        "./read/Preview/faxian.png",
+        "./read/Preview/found.jpg",
+        "./read/Preview/home.png",
+        "./read/Preview/home2.png",
+        "./read/Preview/home3.jpg"
+      ],
+      "readme_url": "./read/README.md",
+      "bug_report_url": "https://github.com/UCKETX/qreader-fnos/issues",
+      "distributor": "autobcb",
+      "distributor_url": "https://github.com/autobcb/read",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": true,
+      "releases": {
+        "3.3.3": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/UCKETX/qreader-fnos/releases/download/3.3.3/read.fpk",
+              "sha256": "4df0283c25905e5897c38291d8f4061e988bda16847b343098267719d7f23e78",
+              "size": 38055
+            }
+          }
+        }
       }
     },
-    "install_type": "系统空间",
-    "size": "81.4",
-    "isdocker": "false"
+    "moviepilot": {
+      "display_name": "MoviePilot",
+      "desc": "MoviePilot 是新一代智能化个人媒体库管理工具，基于前后端分离设计架构，拥有丰富的插件生态系统。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "./moviepilot/ICON.PNG",
+      "preview_urls": [
+        "./moviepilot/Preview/dashboard.png",
+        "./moviepilot/Preview/plugin.png",
+        "./moviepilot/Preview/ranking.png",
+        "./moviepilot/Preview/subscribe.png"
+      ],
+      "readme_url": "./moviepilot/README.md",
+      "bug_report_url": "https://github.com/UCKETX/moviepilot/issues",
+      "distributor": "jxxghp",
+      "distributor_url": "https://github.com/jxxghp/MoviePilot",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": true,
+      "releases": {
+        "3.3": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/UCKETX/moviepilot/releases/download/3.3/moviepilot.fpk",
+              "sha256": "758ef9ba721e531d1dfb1795b072050c2c9a72db49e13ab2f1bc3fe7801699aa",
+              "size": 158780
+            }
+          }
+        }
+      }
+    },
+    "lunatv-enhanced": {
+      "display_name": "LunaTV Enhanced",
+      "desc": "基于 MoonTV 深度二次开发的全功能影视聚合播放平台，新增 YouTube 集成、网盘搜索、AI 推荐、短剧功能、IPTV 直播、Bangumi 动漫、播放统计、弹幕系统等 50+ 重大功能增强，打造极致的在线观影体验。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "./lunatv-enhanced/ICON.PNG",
+      "readme_url": "./lunatv-enhanced/README.md",
+      "bug_report_url": "https://github.com/yuexps/lunatv-fnos/issues",
+      "distributor": "SzeMeng76",
+      "distributor_url": "https://github.com/SzeMeng76/LunaTV",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": true,
+      "releases": {
+        "1.0.0": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/lunatv-enhanced-fnos/releases/download/1.0.0/lunatv-enhanced.fpk",
+              "sha256": "2e0f4ba3f08da37a9e719c5769a7a134fa63aec28ab45008db91683b994eb01c",
+              "size": 180825
+            }
+          }
+        }
+      }
+    },
+    "iventoy": {
+      "display_name": "iVentoy",
+      "desc": "iVentoy 是一个基于 PXE 协议的网络启动工具，支持同时启动多台机器，同时支持多种操作系统的安装。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "./iventoy/ICON.PNG",
+      "preview_urls": [
+        "./iventoy/Preview/main_cn.png"
+      ],
+      "readme_url": "./iventoy/README.md",
+      "bug_report_url": "https://github.com/UCKETX/iventoy/issues",
+      "distributor": "longpanda",
+      "distributor_url": "https://iventoy.com/cn/index.html",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "1.0.20": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/UCKETX/iventoy/releases/download/1.0.20/iventoy.fpk",
+              "sha256": "1b760f6cc80a063806a9b14bd6d89aed2108ecc7db2d6742fbc4540426f81fe9",
+              "size": 13393853
+            }
+          }
+        }
+      }
+    },
+    "omnibox": {
+      "display_name": "OmniBox",
+      "desc": "OmniBox 是一个功能强大的影视综合站，解决了资源分散、查找困难的问题，为影视爱好者提供一站式的观影解决方案。它整合了常见的采集站、网盘资源、IPTV 直播源、各大直播平台等，无论您是付费会员、还是习惯于搜索免费资源，它都能满足您的需求。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "./omnibox/ICON.PNG",
+      "preview_urls": [
+        "./omnibox/Preview/main.png"
+      ],
+      "readme_url": "./omnibox/README.md",
+      "bug_report_url": "https://github.com/UCKETX/omnibox/issues",
+      "distributor": "longpanda",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": true,
+      "releases": {
+        "1.0.0": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/UCKETX/omnibox/releases/download/1.0.0/omnibox.fpk",
+              "sha256": "eada1f0c58536861718837c429f92b61f6201dc1e4609568f7ab598178e9ce4b",
+              "size": 132225
+            }
+          }
+        }
+      }
+    },
+    "yuexps.2fmusic": {
+      "display_name": "2FMusic",
+      "desc": "轻量本地音乐播放器\n本地音乐库: 自动扫描目录、识别 ID3 元数据（封面、歌词），支持网络源自动补充\n沉浸式播放器: 响应式 UI、歌词滚动显示、封面主题色提取、快捷键控制\n目录管理: 添加服务器任意文件夹到音乐库，无需移动文件\n网易云集成: 搜索、高品质下载、链接解析、扫码登录同步歌单\n专属Android客户端：https://github.com/yuexps/2FMusic-Android\n集成Folia: 以全屏沉浸式歌词播放为核心的在线音乐播放器，支持网易云",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "./yuexps.2fmusic/ICON.PNG",
+      "preview_urls": [
+        "./yuexps.2fmusic/Preview/1.png",
+        "./yuexps.2fmusic/Preview/2.png",
+        "./yuexps.2fmusic/Preview/3.png"
+      ],
+      "readme_url": "./yuexps.2fmusic/README.md",
+      "bug_report_url": "https://github.com/yuexps/2FMusic/issues",
+      "distributor": "yuexps",
+      "distributor_url": "https://github.com/yuexps/2FMusic",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "0.1.9": {
+          "changelog": "1.Android客户端功能更新(建议更新1.1.3)\n2.Web端尝试内置Folia播放器",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.9-d858304-pre/2fmusic-0.1.9-d858304.fpk",
+              "sha256": "3359514da07638cf4600d1c561f5dadb89a262449e45411770d1637039564c8c",
+              "size": 6432027
+            }
+          }
+        }
+      }
+    },
+    "netease": {
+      "display_name": "网易云API",
+      "desc": "网易云API，提供网易云音乐的API接口，推荐下载 2FMusic 使用此API",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
+      "icon_url": "./netease/ICON.PNG",
+      "readme_url": "./netease/README.md",
+      "bug_report_url": "https://github.com/UCKETX/netease/issues",
+      "distributor": "NeteaseCloudMusicApiEnhanced",
+      "distributor_url": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": true,
+      "releases": {
+        "1.0.0": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/UCKETX/netease/releases/download/1.0.0/netease.fpk",
+              "sha256": "59581d3a26a97ceb561f416ece831a9f477e979aa9f804af248052c235c5698a",
+              "size": 34873
+            }
+          }
+        }
+      }
+    },
+    "antigravity": {
+      "display_name": "Antigravity",
+      "desc": "Antigravity 是一个专为开发者和 AI 爱好者设计的全功能桌面应用。它将多账号管理、协议转换 and 智能请求调度完美结合，为您提供一个稳定、极速且成本低廉的 本地 AI 中转站。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "AI赋能"
+      ],
+      "icon_url": "./antigravity/ICON.PNG",
+      "preview_urls": [
+        "./antigravity/Preview/about-dark.png",
+        "./antigravity/Preview/accounts-light.png",
+        "./antigravity/Preview/dashboard-light.png",
+        "./antigravity/Preview/proxy-settings.png",
+        "./antigravity/Preview/settings-dark.png"
+      ],
+      "readme_url": "./antigravity/README.md",
+      "bug_report_url": "https://github.com/lbjlaq/Antigravity-Manager/issues",
+      "distributor": "lbjlaq",
+      "distributor_url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "3.3.15": {
+          "packages": {
+            "x86": {
+              "download_url": "./antigravity/antigravity.fpk",
+              "sha256": "4014ab721e2621d78c69e4b14e3796b76280bed4e609a79bc0bc766387c30267",
+              "size": 7820350
+            }
+          }
+        }
+      }
+    },
+    "mcsmanager": {
+      "display_name": "MCSManager",
+      "desc": "注意：此版以ROOT权限运行；\n开源，一键开服，分布式架构，多用户，现代化的 Minecraft and Steam 游戏服务器管理面板，此应用整合了节点端和面板端两个子应用，默认需要 23333 and 24444 端口才可正常工作。",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "游戏地带"
+      ],
+      "icon_url": "./mcsmanager/ICON.PNG",
+      "readme_url": "./mcsmanager/README.md",
+      "bug_report_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/issues",
+      "distributor": "YuMao",
+      "distributor_url": "https://github.com/MCSManager/MCSManager",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "10.18.0": {
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/releases/download/v10.18.0/mcsmanager.fpk",
+              "sha256": "aa7560e784e87b66725c4ed4b3a2ccfb12d5c4d688c892b4e8df21509338a4e1",
+              "size": 34331101
+            }
+          }
+        }
+      }
+    },
+    "qwenpaw_yuexps": {
+      "display_name": "QwenPaw",
+      "desc": "你的 AI 个人助理；安装极简、本地与云上均可部署；支持多端接入、能力轻松扩展。\n\n 核心能力：\n 由你掌控 — 记忆与个性化完全由你掌控，支持本地或云端部署。无第三方托管，无数据上传。\nSkills 扩展 — 内置定时任务、PDF/Office 处理、新闻摘要等；自定义技能自动加载，无绑定。通过 Skills 决定 QwenPaw 能做什么。\n 多智能体协作 — 创建多个独立智能体，各司其职；启用协作技能，智能体间互相通信共同完成复杂任务。\n 多层安全防护 — 工具防护、文件访问控制、技能安全扫描，保障运行安全。\n 全域触达 — 钉钉、飞书、微信、Discord、Telegram 等频道，一个 QwenPaw 按需连接。\n 记忆进化与主动交互 — 智能体从交互中学习、反思经验、主动服务，越用越聪明。\n\n 可选依赖：\nChrome-for-Testing-yuexps — 浏览器控制，网页浏览、截图等技能 \nNode.js v22 — 部分技能执行环境，支持 Node.js 类型技能",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "AI赋能"
+      ],
+      "icon_url": "./qwenpaw_yuexps/ICON.PNG",
+      "readme_url": "./qwenpaw_yuexps/README.md",
+      "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
+      "distributor": "agentscope-ai",
+      "distributor_url": "https://github.com/yuexps/QwenPaw-FNOS",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "26.8.27": {
+          "changelog": "更新 QwenPaw 到 v2.1.0 版本",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.8.27/qwenpaw_yuexps.fpk",
+              "sha256": "298fc4a9abd7c796ddb5787364b0d96a8c81a0cf30f3091c14a0b20e1d2a51d7",
+              "size": 18341724
+            }
+          }
+        }
+      }
+    },
+    "Chrome-for-Testing-yuexps": {
+      "display_name": "Chrome for Testing",
+      "desc": "Chrome 变种，专门针对 Web 应用测试和自动化用例。支持 Playwright，配合QwenPaw使用。\nPLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/var/apps/Chrome-for-Testing-yuexps/target/chrome-headless-shell'",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "编程开发"
+      ],
+      "icon_url": "./Chrome-for-Testing-yuexps/ICON.PNG",
+      "bug_report_url": "https://github.com/yuexps/QwenPaw-FNOS/issues",
+      "distributor": "Chrome for Developers",
+      "distributor_url": "https://github.com/yuexps/QwenPaw-FNOS",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "145.0.7632.6": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.4.30/Chrome-for-Testing-yuexps.fpk",
+              "sha256": "ead9d9466084c91f1521bce3e0ee2ecece8a67c5325532af53e5aaac4b64f885",
+              "size": 107733404
+            }
+          }
+        }
+      }
+    },
+    "m.text.editor": {
+      "display_name": "PodNote",
+      "desc": "PodNote 是一款基于飞牛OS（FNOS）适配的轻量极速文本编辑器，搭载 Monaco Editor 内核。\n- 现代编辑器工作区：类 VS Code 活动栏与侧边栏，支持多标签页编辑、全局正则查找与替换、只读监听追踪。\n- 集成交互式终端：基于 WebSocket 与 xterm.js，后端桥接 PTY 提供 Linux Bash 终端交互。\n- 深度适配飞牛OS：支持在 FNOS 文件管理器中右键编辑、工具栏一键新建文件，支持常用编码智能识别。\n- 语言与语法支持：主流开发语言语法高亮、前端框架及运维脚本支持，自带 JSON/HTML/CSS 语法校验。\n- 配套浏览器拓展：实现 FNOS 文件管理器右键无缝联动。\nhttps://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "编程开发"
+      ],
+      "icon_url": "./m.text.editor/ICON.PNG",
+      "preview_urls": [
+        "./m.text.editor/Preview/1.png",
+        "./m.text.editor/Preview/2.png",
+        "./m.text.editor/Preview/3.png",
+        "./m.text.editor/Preview/4.png",
+        "./m.text.editor/Preview/5.png",
+        "./m.text.editor/Preview/6.png"
+      ],
+      "readme_url": "./m.text.editor/README.md",
+      "bug_report_url": "https://github.com/yuexps/m.text.editor/issues",
+      "distributor": "yuexps",
+      "distributor_url": "https://github.com/yuexps/m.text.editor",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "1.3.9": {
+          "changelog": "修复了一些Bug~",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.3.9/m.text.editor-1.3.9-x86.fpk",
+              "sha256": "5138c417231ecb411041b68e6dd235b9547aa2585e1f781e00fceec5ce30edf7",
+              "size": 6862487
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.3.9/m.text.editor-1.3.9-arm.fpk",
+              "sha256": "e61dba8e84e37858c1dd634928f3230c606d1ab388b600a415f8e54d82a77268",
+              "size": 6593500
+            }
+          }
+        }
+      }
+    },
+    "EaglercraftX-1.8.8": {
+      "display_name": "EaglercraftX-1.8.8",
+      "desc": "试试在浏览器中玩Minecraft吧！！！\nEaglercraft的1.8.8版本，由lax1dude制作。这是目前最稳定且部署最广泛的Eaglercraft版本。",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "游戏地带"
+      ],
+      "icon_url": "./EaglercraftX-1.8.8/ICON.PNG",
+      "distributor": "lax1dude",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "1.8.8": {
+          "packages": {
+            "all": {
+              "download_url": "./EaglercraftX-1.8.8/EaglercraftX-1.8.8.fpk",
+              "sha256": "95e6821344257ab3fcc0283e3191ac34afa1f49b8c76bfc4b5aab4b30f6e8e12",
+              "size": 24932844
+            }
+          }
+        }
+      }
+    },
+    "yuexps-usb-fan": {
+      "display_name": "USB Fan",
+      "desc": "飞牛 NAS (FNOS) 的 USB 继电器 温控程序。\n使用方法看 README.md",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "硬件驱动"
+      ],
+      "icon_url": "./yuexps-usb-fan/ICON.PNG",
+      "preview_urls": [
+        "./yuexps-usb-fan/Preview/1.png",
+        "./yuexps-usb-fan/Preview/2.png"
+      ],
+      "readme_url": "./yuexps-usb-fan/README.md",
+      "bug_report_url": "https://github.com/yuexps/usb_fan/issues",
+      "distributor": "yuexps",
+      "distributor_url": "https://github.com/yuexps/usb_fan",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "1.0.3": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/usb_fan/releases/download/v1.0.3/yuexps-usb-fan.fpk",
+              "sha256": "37e3b331258e67764907c303b11106a1e0dd6130b7a0088c1d7c9992ea6b0ad8",
+              "size": 4047210
+            }
+          }
+        }
+      }
+    },
+    "firefox-docker": {
+      "display_name": "Firefox",
+      "desc": "基于 Docker 的 Firefox 浏览器，支持通过 Web 远程访问，提供完整的桌面浏览体验。\n已配置：亚洲时区、中文字体、阿里云镜像源、禁用自动更新。\n支持：音频、文件管理器、Web 终端、深色模式、HTTPS 安全连接、Web 鉴权。\n第一次启动比较慢，请耐心等待！如需修改配置，请卸载重装在安装向导配置！",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "./firefox-docker/ICON.PNG",
+      "preview_urls": [
+        "./firefox-docker/Preview/1.png"
+      ],
+      "bug_report_url": "https://github.com/yuexps/FnDepot/issues",
+      "distributor": "jlesage",
+      "distributor_url": "https://github.com/yuexps/FnDepot",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": true,
+      "releases": {
+        "1.0.1": {
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/firefox-docker.fpk",
+              "sha256": "b36aea0246df71c075db67a92314a4382be7b8c1f2546a1bd0c8f6e53198565c",
+              "size": 181810
+            }
+          }
+        }
+      }
+    },
+    "Lucky.yuexps": {
+      "display_name": "Lucky 3.0",
+      "desc": "Lucky适中版(lucky_docker)，支持 动态域名、反向代理、端口转发、STUN内网穿透、Docker管理、Web终端、网络唤醒、计划任务和自动证书等多项功能。\n参考徐大大封包方法，仅打包此版本自用！\n初始账号:666 密码:666",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "./Lucky.yuexps/ICON.PNG",
+      "bug_report_url": "https://github.com/yuexps/FnDepot/issues",
+      "distributor": "yuexps",
+      "distributor_url": "https://github.com/yuexps/FnDepot",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "3.0.0": {
+          "changelog": "2026-07-09 Lucky 3.0.0 beta8 更新日志\n1. 网络唤醒：网络唤醒快捷控制页面重构\n2. SSL证书：内置适配支持新证书申请机构，LiteSSL 。国内网络不好、申请 ZeroSSL 或 Let's Encrypt 经常失败的话可以试试这个。\n顺便提醒一下： Lucky 是支持同一个域名同时在多家机构申请证书的。系统会自动挑有效期最长的来使用。\n3. IP 过滤：过滤类型里加了 “IP 信息关键词匹配”，配合高精度IP地址库使用 封禁或放行更灵活。\n4. IP地址库: 增加 GeoCN（geocn） 离线 IP 库： 支持中国大陆 IPv4/IPv6 的高精度离线库，有需要的自己去下载：\nhttps://github.com/ljxi/GeoCN\n离线库直连下载：https://github.com/ljxi/GeoCN/releases/latest/download/GeoCN.mmdb\n5. Web 终端： Web 终端弹窗支持拖拽移动\n6. 修复其它已知 Bug",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/Lucky.yuexps.fpk",
+              "sha256": "46adcb6a12c15966e91fb6f690b0521f1b9c359e7ca54cc78e00f8bcaf0f55e7",
+              "size": 18232621
+            }
+          }
+        }
+      }
+    },
+    "docker.updater": {
+      "display_name": "Docker Updater",
+      "desc": "Docker 容器更新检测与升级管理器，支持版本升级、更新消息通知。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "./docker.updater/ICON.PNG",
+      "preview_urls": [
+        "./docker.updater/Preview/1.png",
+        "./docker.updater/Preview/2.png",
+        "./docker.updater/Preview/3.png"
+      ],
+      "bug_report_url": "https://github.com/yuexps/docker.updater/issues",
+      "distributor": "yuexps",
+      "distributor_url": "https://github.com/yuexps/docker.updater",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "1.1.4": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.4/docker.updater-x86.fpk",
+              "sha256": "91b60c8cb3cd8b170ed1956e37bae14b0eb0bc6675f3c797b883f738044e6280",
+              "size": 11881895
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.4/docker.updater-arm.fpk",
+              "sha256": "3adaf0f3efd716c836d6134a778bcd9e313c4e78cb91438537832d00ee34fb5e",
+              "size": 10781765
+            }
+          }
+        }
+      }
+    },
+    "deepseek.harness": {
+      "display_name": "DeepSeek Harness",
+      "desc": "专为飞牛打造的 DeepSeek Harness 一键部署与可视化管理应用。\n <br>服务控制：支持启动、停止、重启、拉取更新与强制重建，内置进程组清理。\n <br>插件管理：支持命令安装（npm 包 / GitHub 仓库）、构建脚本自动放行（allowBuilds）、一键启停与卸载。\n <br>工作区查看：实时同步工作区列表、关联会话数及更新时间，支持在文件管理中一键定位目录。\n <br>安全与网关：支持飞牛统一网关、单端口 HTTP/HTTPS 自适应反代与外部自定义地址，提供访问密码鉴权\n <br>运行日志：WebSocket 实时推送日志，支持语法高亮、自动滚动、日志轮转、清空与下载。\n <br>应用设置：支持配置服务端口、反向代理端口、打开方式、访问密码及网络代理，端口占用检测与热重载。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "AI赋能"
+      ],
+      "icon_url": "./deepseek.harness/ICON.PNG",
+      "preview_urls": [
+        "./deepseek.harness/Preview/1.png",
+        "./deepseek.harness/Preview/2.png",
+        "./deepseek.harness/Preview/3.png",
+        "./deepseek.harness/Preview/4.png",
+        "./deepseek.harness/Preview/5.png",
+        "./deepseek.harness/Preview/6.png"
+      ],
+      "bug_report_url": "https://github.com/yuexps/deepseek.harness.fnos/issues",
+      "distributor": "yuexps",
+      "distributor_url": "https://github.com/yuexps/deepseek.harness.fnos",
+      "run_as": "root",
+      "service_port": "2298,2299",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "0.2.8": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.2.8/deepseek.harness-x86.fpk",
+              "sha256": "5a68527355c5ea2846cec0e883d84aee48abd5b30537c0ecec4ee4e05a1e6728",
+              "size": 85339886
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.2.8/deepseek.harness-arm.fpk",
+              "sha256": "514d62070f1d8827d4113593ec97626889e7bcbd8a645c8c8c201190b6179ff4",
+              "size": 84555212
+            }
+          }
+        }
+      }
+    }
   }
 }

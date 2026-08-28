@@ -1,0 +1,63 @@
+- name: Update FnDepot fnpack.json
+  if: ${{ github.event.inputs.publish_release == 'true' || github.event.inputs.publish_release == true }}
+  env:
+    GH_PAT: ${{ secrets.GH_PAT }}
+    VERSION: ${{ steps.manifest.outputs.version }}
+    TAG_NAME: v${{ steps.manifest.outputs.version }}
+  run: |
+    if [ -z "$GH_PAT" ]; then
+      echo "未配置 GH_PAT secret，跳过更新 FnDepot。"
+      exit 0
+    fi
+
+    X86_SIZE=$(stat -c %s "${{ env.BIN_NAME }}-x86.fpk")
+    ARM_SIZE=$(stat -c %s "${{ env.BIN_NAME }}-arm.fpk")
+    X86_SHA256=$(sha256sum "${{ env.BIN_NAME }}-x86.fpk" | awk '{print $1}')
+    ARM_SHA256=$(sha256sum "${{ env.BIN_NAME }}-arm.fpk" | awk '{print $1}')
+    
+    X86_URL="https://github.com/yuexps/deepseek.harness.fnos/releases/download/${TAG_NAME}/${{ env.BIN_NAME }}-x86.fpk"
+    ARM_URL="https://github.com/yuexps/deepseek.harness.fnos/releases/download/${TAG_NAME}/${{ env.BIN_NAME }}-arm.fpk"
+    
+    TARGET_REPOS=("yuexps/FnDepot")
+
+    for REPO in "${TARGET_REPOS[@]}"; do
+      REPO_DIR="repo_$(echo "$REPO" | tr '/' '_')"
+      git clone "https://x-access-token:${GH_PAT}@github.com/${REPO}.git" "$REPO_DIR" || continue
+      pushd "$REPO_DIR" > /dev/null
+      
+      if [ -f "fnpack.json" ]; then
+        jq --arg ver "$VERSION" \
+           --arg x86_url "$X86_URL" \
+           --arg x86_sha "$X86_SHA256" \
+           --argjson x86_size "$X86_SIZE" \
+           --arg arm_url "$ARM_URL" \
+           --arg arm_sha "$ARM_SHA256" \
+           --argjson arm_size "$ARM_SIZE" \
+           '
+           .apps["deepseek.harness"].releases[$ver] = {
+             "packages": {
+               "x86": {
+                 "download_url": $x86_url,
+                 "sha256": $x86_sha,
+                 "size": $x86_size
+               },
+               "arm": {
+                 "download_url": $arm_url,
+                 "sha256": $arm_sha,
+                 "size": $arm_size
+               }
+             }
+           }
+           ' fnpack.json > fnpack.json.tmp && mv fnpack.json.tmp fnpack.json
+           
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add fnpack.json
+        if ! git diff --staged --quiet; then
+          git commit -m "chore: bump deepseek.harness to ${VERSION}"
+          BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          git push "https://x-access-token:${GH_PAT}@github.com/${REPO}.git" "$BRANCH"
+        fi
+      fi
+      popd > /dev/null
+    done
