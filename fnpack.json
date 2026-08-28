@@ -416,6 +416,15 @@
               "size": 34331101
             }
           }
+        },
+        "10.18.3": {
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/releases/download/v10.18.3/mcsmanager.fpk",
+              "sha256": "7ddbd921db288ad93e2bdf91bcf4a9fcb28c53627efebe8ae40236543a699e73",
+              "size": 38628939
+            }
+          }
         }
       }
     },
@@ -446,6 +455,16 @@
               "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.8.27/qwenpaw_yuexps.fpk",
               "sha256": "298fc4a9abd7c796ddb5787364b0d96a8c81a0cf30f3091c14a0b20e1d2a51d7",
               "size": 18341724
+            }
+          }
+        },
+        "26.8.28": {
+          "changelog": "更新 QwenPaw 到 v2.1.0 版本",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.8.28/qwenpaw_yuexps.fpk",
+              "sha256": "92b80f0e7708f84b4ce4a1bafe5e4452d54257b440708c516a464377a2c19600",
+              "size": 18341711
             }
           }
         }
