@@ -416,6 +416,15 @@
               "size": 34331101
             }
           }
+        },
+        "10.18.3": {
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/releases/download/v10.18.3/mcsmanager.fpk",
+              "sha256": "7ddbd921db288ad93e2bdf91bcf4a9fcb28c53627efebe8ae40236543a699e73",
+              "size": 38628939
+            }
+          }
         }
       }
     },
