@@ -108,7 +108,7 @@
     },
     "read": {
       "display_name": "轻阅读",
-      "desc": "轻阅读APP后端，支持全端，不管是手机还是大屏设备都适配了ui，可以在全端同步进度。开源阅读不方便同步轻阅读进度，并且开源阅读过于复杂，移植多端难度较大，通过同一个后端的方法，可以做到多端体验基本一致。 \n 后台地址: http://ip:15432/admin \n APP下载地址: https://github.com/autobcb/read/releases/tag/3.3.3",
+      "desc": "轻阅读APP后端，支持全端，不管是手机还是大屏设备都适配了ui，可以在全端同步进度。开源阅读不方便同步轻阅读进度，并且开源阅读过于复杂，移植多端难度较大，通过同一个后端的方法，可以做到多端体验基本一致。 <br> 后台地址: http://ip:15432/admin <br> APP下载地址: https://github.com/autobcb/read/releases/tag/3.3.3",
       "platform": [
         "x86"
       ],
@@ -284,7 +284,7 @@
     },
     "yuexps.2fmusic": {
       "display_name": "2FMusic",
-      "desc": "轻量本地音乐播放器\n本地音乐库: 自动扫描目录、识别 ID3 元数据（封面、歌词），支持网络源自动补充\n沉浸式播放器: 响应式 UI、歌词滚动显示、封面主题色提取、快捷键控制\n目录管理: 添加服务器任意文件夹到音乐库，无需移动文件\n网易云集成: 搜索、高品质下载、链接解析、扫码登录同步歌单\n专属Android客户端：https://github.com/yuexps/2FMusic-Android\n集成Folia: 以全屏沉浸式歌词播放为核心的在线音乐播放器，支持网易云",
+      "desc": "轻量本地音乐播放器<br>本地音乐库: 自动扫描目录、识别 ID3 元数据（封面、歌词），支持网络源自动补充<br>沉浸式播放器: 响应式 UI、歌词滚动显示、封面主题色提取、快捷键控制<br>目录管理: 添加服务器任意文件夹到音乐库，无需移动文件<br>网易云集成: 搜索、高品质下载、链接解析、扫码登录同步歌单<br>专属Android客户端：https://github.com/yuexps/2FMusic-Android<br>集成Folia: 以全屏沉浸式歌词播放为核心的在线音乐播放器，支持网易云",
       "platform": [
         "all"
       ],
@@ -308,7 +308,7 @@
       "is_docker": false,
       "releases": {
         "0.1.9": {
-          "changelog": "1.Android客户端功能更新(建议更新1.1.3)\n2.Web端尝试内置Folia播放器",
+          "changelog": "1.Android客户端功能更新(建议更新1.1.3)<br>2.Web端尝试内置Folia播放器",
           "packages": {
             "all": {
               "download_url": "https://github.com/yuexps/2FMusic/releases/download/v0.1.9-d858304-pre/2fmusic-0.1.9-d858304.fpk",
@@ -390,7 +390,7 @@
     },
     "mcsmanager": {
       "display_name": "MCSManager",
-      "desc": "注意：此版以ROOT权限运行；\n开源，一键开服，分布式架构，多用户，现代化的 Minecraft and Steam 游戏服务器管理面板，此应用整合了节点端和面板端两个子应用，默认需要 23333 and 24444 端口才可正常工作。",
+      "desc": "注意：此版以ROOT权限运行；<br>开源，一键开服，分布式架构，多用户，现代化的 Minecraft and Steam 游戏服务器管理面板，此应用整合了节点端和面板端两个子应用，默认需要 23333 and 24444 端口才可正常工作。",
       "platform": [
         "all"
       ],
@@ -421,7 +421,7 @@
     },
     "qwenpaw_yuexps": {
       "display_name": "QwenPaw",
-      "desc": "你的 AI 个人助理；安装极简、本地与云上均可部署；支持多端接入、能力轻松扩展。\n\n 核心能力：\n 由你掌控 — 记忆与个性化完全由你掌控，支持本地或云端部署。无第三方托管，无数据上传。\nSkills 扩展 — 内置定时任务、PDF/Office 处理、新闻摘要等；自定义技能自动加载，无绑定。通过 Skills 决定 QwenPaw 能做什么。\n 多智能体协作 — 创建多个独立智能体，各司其职；启用协作技能，智能体间互相通信共同完成复杂任务。\n 多层安全防护 — 工具防护、文件访问控制、技能安全扫描，保障运行安全。\n 全域触达 — 钉钉、飞书、微信、Discord、Telegram 等频道，一个 QwenPaw 按需连接。\n 记忆进化与主动交互 — 智能体从交互中学习、反思经验、主动服务，越用越聪明。\n\n 可选依赖：\nChrome-for-Testing-yuexps — 浏览器控制，网页浏览、截图等技能 \nNode.js v22 — 部分技能执行环境，支持 Node.js 类型技能",
+      "desc": "你的 AI 个人助理；安装极简、本地与云上均可部署；支持多端接入、能力轻松扩展。<br><br> 核心能力：<br> 由你掌控 — 记忆与个性化完全由你掌控，支持本地或云端部署。无第三方托管，无数据上传。<br>Skills 扩展 — 内置定时任务、PDF/Office 处理、新闻摘要等；自定义技能自动加载，无绑定。通过 Skills 决定 QwenPaw 能做什么。<br> 多智能体协作 — 创建多个独立智能体，各司其职；启用协作技能，智能体间互相通信共同完成复杂任务。<br> 多层安全防护 — 工具防护、文件访问控制、技能安全扫描，保障运行安全。<br> 全域触达 — 钉钉、飞书、微信、Discord、Telegram 等频道，一个 QwenPaw 按需连接。<br> 记忆进化与主动交互 — 智能体从交互中学习、反思经验、主动服务，越用越聪明。<br><br> 可选依赖：<br>Chrome-for-Testing-yuexps — 浏览器控制，网页浏览、截图等技能 <br>Node.js v22 — 部分技能执行环境，支持 Node.js 类型技能",
       "platform": [
         "x86"
       ],
@@ -453,7 +453,7 @@
     },
     "Chrome-for-Testing-yuexps": {
       "display_name": "Chrome for Testing",
-      "desc": "Chrome 变种，专门针对 Web 应用测试和自动化用例。支持 Playwright，配合QwenPaw使用。\nPLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/var/apps/Chrome-for-Testing-yuexps/target/chrome-headless-shell'",
+      "desc": "Chrome 变种，专门针对 Web 应用测试和自动化用例。支持 Playwright，配合QwenPaw使用。<br>PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH='/var/apps/Chrome-for-Testing-yuexps/target/chrome-headless-shell'",
       "platform": [
         "x86"
       ],
@@ -483,7 +483,7 @@
     },
     "m.text.editor": {
       "display_name": "PodNote",
-      "desc": "PodNote 是一款基于飞牛OS（FNOS）适配的轻量极速文本编辑器，搭载 Monaco Editor 内核。\n- 现代编辑器工作区：类 VS Code 活动栏与侧边栏，支持多标签页编辑、全局正则查找与替换、只读监听追踪。\n- 集成交互式终端：基于 WebSocket 与 xterm.js，后端桥接 PTY 提供 Linux Bash 终端交互。\n- 深度适配飞牛OS：支持在 FNOS 文件管理器中右键编辑、工具栏一键新建文件，支持常用编码智能识别。\n- 语言与语法支持：主流开发语言语法高亮、前端框架及运维脚本支持，自带 JSON/HTML/CSS 语法校验。\n- 配套浏览器拓展：实现 FNOS 文件管理器右键无缝联动。\nhttps://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
+      "desc": "PodNote 是一款基于飞牛OS（FNOS）适配的轻量极速文本编辑器，搭载 Monaco Editor 内核。<br>- 现代编辑器工作区：类 VS Code 活动栏与侧边栏，支持多标签页编辑、全局正则查找与替换、只读监听追踪。<br>- 集成交互式终端：基于 WebSocket 与 xterm.js，后端桥接 PTY 提供 Linux Bash 终端交互。<br>- 深度适配飞牛OS：支持在 FNOS 文件管理器中右键编辑、工具栏一键新建文件，支持常用编码智能识别。<br>- 语言与语法支持：主流开发语言语法高亮、前端框架及运维脚本支持，自带 JSON/HTML/CSS 语法校验。<br>- 配套浏览器拓展：实现 FNOS 文件管理器右键无缝联动。<br>https://microsoftedge.microsoft.com/addons/detail/ecgbblpdmcifphblcegckelcdhpghjge",
       "platform": [
         "x86",
         "arm"
@@ -529,7 +529,7 @@
     },
     "EaglercraftX-1.8.8": {
       "display_name": "EaglercraftX-1.8.8",
-      "desc": "试试在浏览器中玩Minecraft吧！！！\nEaglercraft的1.8.8版本，由lax1dude制作。这是目前最稳定且部署最广泛的Eaglercraft版本。",
+      "desc": "试试在浏览器中玩Minecraft吧！！！<br>Eaglercraft的1.8.8版本，由lax1dude制作。这是目前最稳定且部署最广泛的Eaglercraft版本。",
       "platform": [
         "all"
       ],
@@ -558,7 +558,7 @@
     },
     "yuexps-usb-fan": {
       "display_name": "USB Fan",
-      "desc": "飞牛 NAS (FNOS) 的 USB 继电器 温控程序。\n使用方法看 README.md",
+      "desc": "飞牛 NAS (FNOS) 的 USB 继电器 温控程序。<br>使用方法看 README.md",
       "platform": [
         "x86"
       ],
@@ -593,7 +593,7 @@
     },
     "firefox-docker": {
       "display_name": "Firefox",
-      "desc": "基于 Docker 的 Firefox 浏览器，支持通过 Web 远程访问，提供完整的桌面浏览体验。\n已配置：亚洲时区、中文字体、阿里云镜像源、禁用自动更新。\n支持：音频、文件管理器、Web 终端、深色模式、HTTPS 安全连接、Web 鉴权。\n第一次启动比较慢，请耐心等待！如需修改配置，请卸载重装在安装向导配置！",
+      "desc": "基于 Docker 的 Firefox 浏览器，支持通过 Web 远程访问，提供完整的桌面浏览体验。<br>已配置：亚洲时区、中文字体、阿里云镜像源、禁用自动更新。<br>支持：音频、文件管理器、Web 终端、深色模式、HTTPS 安全连接、Web 鉴权。<br>第一次启动比较慢，请耐心等待！如需修改配置，请卸载重装在安装向导配置！",
       "platform": [
         "all"
       ],
@@ -626,7 +626,7 @@
     },
     "Lucky.yuexps": {
       "display_name": "Lucky 3.0",
-      "desc": "Lucky适中版(lucky_docker)，支持 动态域名、反向代理、端口转发、STUN内网穿透、Docker管理、Web终端、网络唤醒、计划任务和自动证书等多项功能。\n参考徐大大封包方法，仅打包此版本自用！\n初始账号:666 密码:666",
+      "desc": "Lucky适中版(lucky_docker)，支持 动态域名、反向代理、端口转发、STUN内网穿透、Docker管理、Web终端、网络唤醒、计划任务和自动证书等多项功能。<br>参考徐大大封包方法，仅打包此版本自用！<br>初始账号:666 密码:666",
       "platform": [
         "x86"
       ],
@@ -644,7 +644,7 @@
       "is_docker": false,
       "releases": {
         "3.0.0": {
-          "changelog": "2026-07-09 Lucky 3.0.0 beta8 更新日志\n1. 网络唤醒：网络唤醒快捷控制页面重构\n2. SSL证书：内置适配支持新证书申请机构，LiteSSL 。国内网络不好、申请 ZeroSSL 或 Let's Encrypt 经常失败的话可以试试这个。\n顺便提醒一下： Lucky 是支持同一个域名同时在多家机构申请证书的。系统会自动挑有效期最长的来使用。\n3. IP 过滤：过滤类型里加了 “IP 信息关键词匹配”，配合高精度IP地址库使用 封禁或放行更灵活。\n4. IP地址库: 增加 GeoCN（geocn） 离线 IP 库： 支持中国大陆 IPv4/IPv6 的高精度离线库，有需要的自己去下载：\nhttps://github.com/ljxi/GeoCN\n离线库直连下载：https://github.com/ljxi/GeoCN/releases/latest/download/GeoCN.mmdb\n5. Web 终端： Web 终端弹窗支持拖拽移动\n6. 修复其它已知 Bug",
+          "changelog": "2026-07-09 Lucky 3.0.0 beta8 更新日志<br>1. 网络唤醒：网络唤醒快捷控制页面重构<br>2. SSL证书：内置适配支持新证书申请机构，LiteSSL 。国内网络不好、申请 ZeroSSL 或 Let's Encrypt 经常失败的话可以试试这个。<br>顺便提醒一下： Lucky 是支持同一个域名同时在多家机构申请证书的。系统会自动挑有效期最长的来使用。<br>3. IP 过滤：过滤类型里加了 “IP 信息关键词匹配”，配合高精度IP地址库使用 封禁或放行更灵活。<br>4. IP地址库: 增加 GeoCN（geocn） 离线 IP 库： 支持中国大陆 IPv4/IPv6 的高精度离线库，有需要的自己去下载：<br>https://github.com/ljxi/GeoCN<br>离线库直连下载：https://github.com/ljxi/GeoCN/releases/latest/download/GeoCN.mmdb<br>5. Web 终端： Web 终端弹窗支持拖拽移动<br>6. 修复其它已知 Bug",
           "packages": {
             "x86": {
               "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/Lucky.yuexps.fpk",
@@ -698,7 +698,7 @@
     },
     "deepseek.harness": {
       "display_name": "DeepSeek Harness",
-      "desc": "专为飞牛打造的 DeepSeek Harness 一键部署与可视化管理应用。\n <br>服务控制：支持启动、停止、重启、拉取更新与强制重建，内置进程组清理。\n <br>插件管理：支持命令安装（npm 包 / GitHub 仓库）、构建脚本自动放行（allowBuilds）、一键启停与卸载。\n <br>工作区查看：实时同步工作区列表、关联会话数及更新时间，支持在文件管理中一键定位目录。\n <br>安全与网关：支持飞牛统一网关、单端口 HTTP/HTTPS 自适应反代与外部自定义地址，提供访问密码鉴权\n <br>运行日志：WebSocket 实时推送日志，支持语法高亮、自动滚动、日志轮转、清空与下载。\n <br>应用设置：支持配置服务端口、反向代理端口、打开方式、访问密码及网络代理，端口占用检测与热重载。",
+      "desc": "专为飞牛打造的 DeepSeek Harness 一键部署与可视化管理应用。<br>服务控制：支持启动、停止、重启、拉取更新与强制重建，内置进程组清理。<br>插件管理：支持命令安装（npm 包 / GitHub 仓库）、构建脚本自动放行（allowBuilds）、一键启停与卸载。<br>工作区查看：实时同步工作区列表、关联会话数及更新时间，支持在文件管理中一键定位目录。<br>安全与网关：支持飞牛统一网关、单端口 HTTP/HTTPS 自适应反代与外部自定义地址，提供访问密码鉴权。<br>运行日志：WebSocket 实时推送日志，支持语法高亮、自动滚动、日志轮转、清空与下载。<br>应用设置：支持配置服务端口、反向代理端口、打开方式、访问密码及网络代理，端口占用检测与热重载。",
       "platform": [
         "x86",
         "arm"
