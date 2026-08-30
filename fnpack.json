@@ -169,7 +169,7 @@
       "maintainer_url": "https://github.com/jxxghp/MoviePilot",
       "distributor": "UCKETX",
       "distributor_url": "https://github.com/UCKETX/moviepilot",
-      "run_as": "root",
+      "run_as": "package",
       "install_type": "",
       "is_docker": true,
       "releases": {
@@ -200,7 +200,7 @@
       "maintainer_url": "https://github.com/SzeMeng76/LunaTV",
       "distributor": "yuexps",
       "distributor_url": "https://github.com/yuexps/lunatv-enhanced-fnos",
-      "run_as": "root",
+      "run_as": "package",
       "install_type": "",
       "is_docker": true,
       "releases": {
@@ -267,7 +267,7 @@
       "maintainer": "longpanda",
       "distributor": "UCKETX",
       "distributor_url": "https://github.com/UCKETX/omnibox",
-      "run_as": "root",
+      "run_as": "package",
       "install_type": "",
       "is_docker": true,
       "releases": {
@@ -335,7 +335,7 @@
       "maintainer_url": "https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced",
       "distributor": "UCKETX",
       "distributor_url": "https://github.com/UCKETX/netease",
-      "run_as": "root",
+      "run_as": "package",
       "install_type": "",
       "is_docker": true,
       "releases": {
@@ -628,7 +628,7 @@
       "maintainer_url": "https://github.com/jlesage/docker-firefox",
       "distributor": "yuexps",
       "distributor_url": "https://github.com/yuexps/FnDepot",
-      "run_as": "root",
+      "run_as": "package",
       "install_type": "",
       "is_docker": true,
       "releases": {
