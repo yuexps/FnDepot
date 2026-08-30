@@ -713,6 +713,20 @@
               "size": 10781765
             }
           }
+        },
+        "1.1.5": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.5/docker.updater-x86.fpk",
+              "sha256": "97fe2ace63bd9c9b06d6fcbf3749ef63d8a710a24c69403f748eb501b3095a2b",
+              "size": 11881357
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/docker.updater/releases/download/v1.1.5/docker.updater-arm.fpk",
+              "sha256": "b59e3b64e06cd0bc2f5763e11ee11878147b397ebfcbab24bebd63a6017b6fcc",
+              "size": 10785650
+            }
+          }
         }
       }
     },
