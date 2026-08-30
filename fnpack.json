@@ -685,6 +685,7 @@
         "系统工具"
       ],
       "icon_url": "./docker.updater/ICON.PNG",
+      "readme_url": "./docker.updater/README.md",
       "preview_urls": [
         "./docker.updater/Preview/1.png",
         "./docker.updater/Preview/2.png",
@@ -726,6 +727,7 @@
         "AI赋能"
       ],
       "icon_url": "./deepseek.harness/ICON.PNG",
+      "readme_url": "./deepseek.harness/README.md",
       "preview_urls": [
         "./deepseek.harness/Preview/1.png",
         "./deepseek.harness/Preview/2.png",
