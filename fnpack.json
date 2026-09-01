@@ -90,7 +90,7 @@
       "is_docker": false,
       "releases": {
         "26.6.30": {
-          "changelog": "Integrated Core Support: Powered by v2raya_core (v2ray/xray hybrid core) out of the box",
+          "changelog": "Add zero-dependency Python adapter to bypass fnOS gateway auth header interception",
           "packages": {
             "x86": {
               "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.30/v2raya_x86.fpk",
@@ -99,6 +99,21 @@
             },
             "arm": {
               "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.6.30/v2raya_arm.fpk",
+              "sha256": "8ebe590640225f0bd5115bfa2c62b91035c61d6da23976b8da3bf054df8b2f40",
+              "size": 31840865
+            }
+          }
+        },
+        "26.9.1": {
+          "changelog": "Integrated Core Support: Powered by v2raya_core (v2ray/xray hybrid core) out of the box",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.9.1/v2raya_x86.fpk",
+              "sha256": "802a251229a68c0d97728746c8f88b1633fe4b6b360008237a21ec9a1b9b7f40",
+              "size": 33852499
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.9.1/v2raya_arm.fpk",
               "sha256": "8ebe590640225f0bd5115bfa2c62b91035c61d6da23976b8da3bf054df8b2f40",
               "size": 31840865
             }
