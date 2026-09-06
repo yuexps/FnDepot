@@ -899,5 +899,17 @@
         }
       }
     }
+  },
+  "m.text.editor": {
+    "version": "1.4.0",
+    "size": "6.5",
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.4.0/m.text.editor-1.4.0-x86.fpk"
+      },
+      "arm": {
+        "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.4.0/m.text.editor-1.4.0-arm.fpk"
+      }
+    }
   }
 }
