@@ -498,8 +498,8 @@
           "packages": {
             "all": {
               "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.9.11/qwenpaw_yuexps.fpk",
-              "sha256": "35bbf175ffbe0a2168257838877a0ea793665e94271d8b6397a1bf24caebaf4a",
-              "size": 35572103
+              "sha256": "9643abb9c657b3c7e1cd2a0981c94a4f513be19d9c9383733cea0941c7184735",
+              "size": 35570503
             }
           }
         }
