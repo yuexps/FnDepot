@@ -144,14 +144,50 @@ def generate_bridge_script(prefix: str) -> str:
       targetWindow.history.replaceState = wrapHistory(targetWindow.history.replaceState);
     }}
 
+    // 改写 Authorization 请求头
+    var rewriteAuthHeaders = function (headers) {{
+      if (!headers) return;
+      if (typeof Headers !== "undefined" && headers instanceof Headers) {{
+        if (headers.has("Authorization")) {{
+          headers.set("X-FnProxy-Authorization", headers.get("Authorization"));
+          headers.delete("Authorization");
+        }}
+      }} else if (Array.isArray(headers)) {{
+        for (var i = 0; i < headers.length; i++) {{
+          if (headers[i] && String(headers[i][0]).toLowerCase() === "authorization") {{
+            headers[i][0] = "X-FnProxy-Authorization";
+          }}
+        }}
+      }} else if (typeof headers === "object") {{
+        for (var k in headers) {{
+          if (k.toLowerCase() === "authorization") {{
+            headers["X-FnProxy-Authorization"] = headers[k];
+            delete headers[k];
+          }}
+        }}
+      }}
+    }};
+
     // 拦截 Fetch
     if (targetWindow.fetch) {{
       var nativeFetch = targetWindow.fetch.bind(targetWindow);
       targetWindow.fetch = function (input, init) {{
+        init = init || {{}};
+        if (init.headers) {{
+          rewriteAuthHeaders(init.headers);
+        }}
         if (typeof Request !== "undefined" && input instanceof Request) {{
           var mapped = toGatewayUrl(input.url);
-          if (mapped !== input.url) {{
-            try {{ input = new Request(mapped, input); }} catch (_) {{}}
+          var hasAuth = false;
+          try {{ hasAuth = input.headers && input.headers.has("Authorization"); }} catch (_) {{}}
+          if (mapped !== input.url || hasAuth) {{
+            try {{
+              var reqHeaders = new Headers(input.headers);
+              rewriteAuthHeaders(reqHeaders);
+              input = new Request(mapped, Object.assign({{}}, init, {{ headers: reqHeaders }}));
+            }} catch (_) {{
+              try {{ input = new Request(mapped, input); }} catch (_) {{}}
+            }}
           }}
         }} else {{
           input = toGatewayUrl(input);
@@ -166,6 +202,13 @@ def generate_bridge_script(prefix: str) -> str:
       targetWindow.XMLHttpRequest.prototype.open = function (method, url) {{
         arguments[1] = toGatewayUrl(url);
         return nativeXHROpen.apply(this, arguments);
+      }};
+      var nativeXHRSetHeader = targetWindow.XMLHttpRequest.prototype.setRequestHeader;
+      targetWindow.XMLHttpRequest.prototype.setRequestHeader = function (header, value) {{
+        if (header && String(header).toLowerCase() === "authorization") {{
+          header = "X-FnProxy-Authorization";
+        }}
+        return nativeXHRSetHeader.call(this, header, value);
       }};
     }}
 
@@ -386,9 +429,22 @@ class FnGatewayHandler(BaseHTTPRequestHandler):
 
         # 构建转发请求头
         headers = {}
+        auth_val = None
         for k, v in self.headers.items():
-            if k.lower() not in ("host", "origin", "sec-fetch-site", "connection"):
-                headers[k] = v
+            k_lower = k.lower()
+            if k_lower in ("host", "origin", "sec-fetch-site", "connection"):
+                continue
+            if k_lower == "x-fnproxy-authorization":
+                auth_val = v
+                continue
+            if k_lower == "authorization":
+                continue
+            headers[k] = v
+
+        if auth_val:
+            headers["Authorization"] = auth_val
+        elif "Authorization" in self.headers:
+            headers["Authorization"] = self.headers["Authorization"]
 
         headers["Host"] = f"{target_host}:{target_port}"
         headers["Origin"] = f"http://{target_host}:{target_port}"
@@ -553,14 +609,25 @@ class FnGatewayHandler(BaseHTTPRequestHandler):
         target_sock.connect((target_host, target_port))
 
         handshake = [f"{self.command} {req_path} HTTP/1.1"]
+        auth_val = None
         for k, v in self.headers.items():
             k_lower = k.lower()
             if k_lower == "host":
                 handshake.append(f"Host: {target_host}:{target_port}")
             elif k_lower == "origin":
                 handshake.append(f"Origin: http://{target_host}:{target_port}")
+            elif k_lower == "x-fnproxy-authorization":
+                auth_val = v
+            elif k_lower == "authorization":
+                continue
             else:
                 handshake.append(f"{k}: {v}")
+
+        if auth_val:
+            handshake.append(f"Authorization: {auth_val}")
+        elif "Authorization" in self.headers:
+            handshake.append(f"Authorization: {self.headers['Authorization']}")
+
         handshake.append("\r\n")
         target_sock.sendall("\r\n".join(handshake).encode("utf-8"))
 
@@ -601,6 +668,9 @@ else:
 
 class ThreadingUnixHTTPServer(socketserver.ThreadingMixIn, BaseUnixServer):
     """Unix Domain Socket HTTP 服务"""
+    request_queue_size = 128
+    daemon_threads = True
+
     def __init__(self, socket_path: str, target_host: str, target_port: int, prefix: str):
         self.socket_path = socket_path
         self.target_host = target_host
