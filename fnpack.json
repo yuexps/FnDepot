@@ -1004,6 +1004,20 @@
               "size": 120247767
             }
           }
+        },
+        "0.3.5-1": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.3.5-1/deepseek.harness-x86.fpk",
+              "sha256": "74cf6005ed7424e93d39c3f62f767482af5cbd3fab4337664b7008f4138e7fa0",
+              "size": 120963041
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.3.5-1/deepseek.harness-arm.fpk",
+              "sha256": "6ca3f3c21298696f738bad52043e64a42f4ddf58453578a86f9dad3587c928ae",
+              "size": 120235881
+            }
+          }
         }
       }
     }
