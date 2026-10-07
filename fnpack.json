@@ -125,12 +125,12 @@
             "x86": {
               "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.10.7/v2raya_x86.fpk",
               "sha256": "254368cdb9c3fc07c8b05ab38258bef5d7b2eff339968e1e54e9c4ae00905d6e",
-              "size": 34125300
+              "size": 34115038
             },
             "arm": {
               "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.10.7/v2raya_arm.fpk",
               "sha256": "d127812a83ed2e12ca411d006b15c5b42c944b7f7a0bdea5bbabe448c6ef4aa5",
-              "size": 31953486
+              "size": 31943631
             }
           }
         }
