@@ -726,7 +726,7 @@
       }
     },
     "Lucky.yuexps": {
-      "display_name": "Lucky 3.0",
+      "display_name": "Lucky",
       "desc": "Lucky适中版(lucky_docker)，支持 动态域名、反向代理、端口转发、STUN内网穿透、Docker管理、Web终端、网络唤醒、计划任务和自动证书等多项功能。<br>参考徐大大封包方法，仅打包此版本自用！<br>初始账号:666 密码:666",
       "platform": [
         "x86"
@@ -744,13 +744,12 @@
       "install_type": "",
       "is_docker": false,
       "releases": {
-        "3.0.0": {
-          "changelog": "2026-07-09 Lucky 3.0.0 beta8 更新日志<br>1. 网络唤醒：网络唤醒快捷控制页面重构<br>2. SSL证书：内置适配支持新证书申请机构，LiteSSL 。国内网络不好、申请 ZeroSSL 或 Let's Encrypt 经常失败的话可以试试这个。<br>顺便提醒一下： Lucky 是支持同一个域名同时在多家机构申请证书的。系统会自动挑有效期最长的来使用。<br>3. IP 过滤：过滤类型里加了 “IP 信息关键词匹配”，配合高精度IP地址库使用 封禁或放行更灵活。<br>4. IP地址库: 增加 GeoCN（geocn） 离线 IP 库： 支持中国大陆 IPv4/IPv6 的高精度离线库，有需要的自己去下载：<br>https://github.com/ljxi/GeoCN<br>离线库直连下载：https://github.com/ljxi/GeoCN/releases/latest/download/GeoCN.mmdb<br>5. Web 终端： Web 终端弹窗支持拖拽移动<br>6. 修复其它已知 Bug",
+        "3.2.4": {
           "packages": {
             "x86": {
               "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/Lucky.yuexps.fpk",
-              "sha256": "46adcb6a12c15966e91fb6f690b0521f1b9c359e7ca54cc78e00f8bcaf0f55e7",
-              "size": 18232621
+              "sha256": "d01db0bab69daccc7ff4236e21f74c0cc26ee48562457560f527aa177efd00ee",
+              "size": 23061438
             }
           }
         }
