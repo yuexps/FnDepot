@@ -133,6 +133,21 @@
               "size": 31943631
             }
           }
+        },
+        "26.10.16": {
+          "changelog": "Separate DNS service from interception and drop obsolete legacy outbound tables to prevent foreign key constraint failed (787) on node deletion.",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.10.16/v2raya_x86.fpk",
+              "sha256": "9eef801341211fa31a61380c635446445f032a40598a3985908eb671275e24b9",
+              "size": 34185270
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/v2raya-fnos/releases/download/v26.10.16/v2raya_arm.fpk",
+              "sha256": "bbcca81bb9689a2ef04e59862fbed1140e929cc4548438235cb2f7afaca45efa",
+              "size": 32015770
+            }
+          }
         }
       }
     },
