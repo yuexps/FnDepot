@@ -464,6 +464,15 @@
               "size": 38643632
             }
           }
+        },
+        "10.21.2": {
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yuexps/fnOS-Pack-MCSManager/releases/download/v10.21.2/mcsmanager.fpk",
+              "sha256": "1b96749606eaf34bca4daed066d7e54f9c143e18c84fe7ccc78730b2c461bbd5",
+              "size": 38665162
+            }
+          }
         }
       }
     },
