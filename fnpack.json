@@ -660,6 +660,20 @@
               "size": 6592676
             }
           }
+        },
+        "1.4.1": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.4.1/m.text.editor-1.4.1-x86.fpk",
+              "sha256": "341577eae09a789339c325ff897607b68f011d90f8d96b41b690eeed4be8248d",
+              "size": 7148397
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/m.text.editor/releases/download/v1.4.1/m.text.editor-1.4.1-arm.fpk",
+              "sha256": "4aeff68afb3180584752c962dbef52af28fcefd99218d1bfd900589e09885c36",
+              "size": 6852066
+            }
+          }
         }
       }
     },
