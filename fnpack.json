@@ -793,12 +793,12 @@
       "install_type": "",
       "is_docker": false,
       "releases": {
-        "3.2.4": {
+        "3.5.0": {
           "packages": {
             "x86": {
               "download_url": "https://github.com/yuexps/FnDepot/releases/download/fpk/Lucky.yuexps.fpk",
-              "sha256": "d01db0bab69daccc7ff4236e21f74c0cc26ee48562457560f527aa177efd00ee",
-              "size": 23061438
+              "sha256": "1cec49f2113d47bcfd92f8d8a18ee3584925651dc3960cf748a9bfac0b8da989",
+              "size": 23792415
             }
           }
         }
