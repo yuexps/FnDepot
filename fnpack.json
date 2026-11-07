@@ -1007,6 +1007,22 @@
               "changelog": "安装包不再内置 DSH 运行时，首次安装后需在概览页选择适配版本在线部署。"
             }
           }
+        },
+        "0.4.6": {
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.4.6/deepseek.harness-x86.fpk",
+              "sha256": "7b3ac27d723364dccb5f6243c7236f92925e1eddac6d7a7c23d942bf2ec2e0a1",
+              "size": 9883677,
+              "changelog": "feat(env): 支持在授权管理页结构化编辑 DSH 环境变量；feat(settings): 支持通过文本编辑器打开 DSH 环境变量文件 (closes #29)"
+            },
+            "arm": {
+              "download_url": "https://github.com/yuexps/deepseek.harness.fnos/releases/download/v0.4.6/deepseek.harness-arm.fpk",
+              "sha256": "3ee88368ce9e5176b0772e4243cd0ebb82fdd7fa5a7bdee6b9d17a75249123f3",
+              "size": 8978213,
+              "changelog": "feat(env): 支持在授权管理页结构化编辑 DSH 环境变量；feat(settings): 支持通过文本编辑器打开 DSH 环境变量文件 (closes #29)"
+            }
+          }
         }
       }
     }
