@@ -608,6 +608,16 @@
               "size": 55069477
             }
           }
+        },
+        "26.11.20": {
+          "changelog": "更新 QwenPaw 到 v2.3.0.post1 版本",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yuexps/QwenPaw-FNOS/releases/download/v26.11.20/qwenpaw_yuexps.fpk",
+              "sha256": "cdf003171855df4c3757d986a6af7732fbd970fd7d33930c73f1893ce157725d",
+              "size": 55955156
+            }
+          }
         }
       }
     },
